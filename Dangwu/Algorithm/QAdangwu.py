@@ -40,7 +40,7 @@ class Document:
         self.page_number = page_number
 
 # 读取停用词文件
-with open("E:/工作/LangchainQA/stopwords.txt", "r", encoding="utf-8") as f:
+with open("stopwords.txt", "r", encoding="utf-8") as f:
     stopwords = [line.strip() for line in f]
 
 # 读取文件
@@ -108,13 +108,13 @@ def load_user_data(scene):
     directory = None
 
     if scenename == '党纪党规':
-        directory = "E:/工作/BkmGPT语料/党建助手/党纪党规"
+        directory = "Dangwu/Algorithm/党建助手/党纪党规"
     elif scenename == '智慧党建':
-        directory = "E:/工作/BkmGPT语料/党建助手/智慧党建"
+        directory = "Dangwu/Algorithm/党建助手/智慧党建"
     elif scenename == '党员教育':
-        directory = "E:/工作/BkmGPT语料/党建助手/党员教育"
+        directory = "Dangwu/Algorithm/党建助手/党员教育"
     elif scenename == '红色历程':
-        directory = "E:/工作/BkmGPT语料/党建助手/红色历程"
+        directory = "Dangwu/Algorithm/党建助手/红色历程"
     # 检查directory是否已经赋值
     if directory is None:
         print(f"Scene name '{scenename}' not recognized.")
@@ -241,7 +241,7 @@ def get_answer(query, scenename, reset=False):
         'top_scores': [doc[1] for doc in top_k_documents]  # Add this line to return the top BM25 scores
     }
 
-    with open(r'E:\工作\LangchainQA\QAdangwu.json', 'a', encoding='utf-8') as f:
+    with open('QAdangwu.json', 'a', encoding='utf-8') as f:
         f.write(json.dumps(qa_data, ensure_ascii=False) + '\n')
     return {'content': response, 'documents': [(doc[0][0], doc[0][1], doc[0][2], doc[1]) for doc in top_k_documents],
             'highlight': highlight}

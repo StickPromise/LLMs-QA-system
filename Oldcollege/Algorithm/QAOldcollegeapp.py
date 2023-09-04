@@ -25,9 +25,9 @@ def api_get_answer():
 
 @app.route('/get_file/<scenename>/<filename>')
 def get_file(scenename, filename):
-    file_path = f"E:/工作/BkmGPT语料/奉贤老年大学/{scenename}/{filename}"  # 根据场景名称和文件名构建文件路径
+    file_path = f"LLMs-QA-system/Oldcollege/Data/奉贤老年大学/{scenename}/{filename}"  # 根据场景名称和文件名构建文件路径
     return send_file(file_path, as_attachment=True)
 
 
 if __name__ == '__main__':
-    app.run(host='172.16.20.239', port=5004, debug=True)
+    app.run(host='localhost', port=5004, debug=True)

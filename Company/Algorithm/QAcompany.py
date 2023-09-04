@@ -40,7 +40,7 @@ class Document:
         self.page_number = page_number
 
 # 读取停用词文件
-with open("E:/工作/LangchainQA/stopwords.txt", "r", encoding="utf-8") as f:
+with open("stopwords.txt", "r", encoding="utf-8") as f:
     stopwords = [line.strip() for line in f]
 
 # 读取文件
@@ -97,15 +97,15 @@ def load_user_data(scene):
     directory = None
 
     if scenename == '新员工适应向导':
-        directory = "E:/工作/BkmGPT语料/BkmGPT语料/新员工适应向导"
+        directory = "company/Data/企业/新员工适应向导"
     elif scenename == '岗位知识支持助手':
-        directory = "E:/工作/BkmGPT语料/BkmGPT语料/岗位知识支持助手"
+        directory = "company/Data/企业/岗位知识支持助手"
     elif scenename == 'IT系统使用向导':
-        directory = "E:/工作/BkmGPT语料/BkmGPT语料/IT系统使用向导"
+        directory = "company/Data/企业/IT系统使用向导"
     elif scenename == '生产设备&工艺知识库':
-        directory = "E:/工作/BkmGPT语料/BkmGPT语料/生产设备&工艺知识库"
+        directory = "company/Data/企业/生产设备&工艺知识库"
     elif scenename == '行业&领域知识仓库':
-        directory = "E:/工作/BkmGPT语料/BkmGPT语料/行业&领域知识仓库"
+        directory = "company/Data/企业/行业&领域知识仓库"
     # 检查directory是否已经赋值
     if directory is None:
         print(f"Scene name '{scenename}' not recognized.")
@@ -228,7 +228,7 @@ def get_answer(query, scenename, reset=False):
         'top_scores': [doc[1] for doc in top_k_documents]  # Add this line to return the top BM25 scores
     }
 
-    with open(r'E:\工作\LangchainQA\QA_record2.json', 'a', encoding='utf-8') as f:
+    with open('QA_record.json', 'a', encoding='utf-8') as f:
         f.write(json.dumps(qa_data, ensure_ascii=False) + '\n')
     return {'content': response, 'documents': [(doc[0][0], doc[0][1], doc[0][2], doc[1]) for doc in top_k_documents],
             'highlight': highlight}

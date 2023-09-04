@@ -40,7 +40,7 @@ class Document:
         self.page_number = page_number
 
 # 读取停用词文件
-with open("E:/工作/LangchainQA/stopwords.txt", "r", encoding="utf-8") as f:
+with open("stopwords.txt", "r", encoding="utf-8") as f:
     stopwords = [line.strip() for line in f]
 
 # 读取文件
@@ -105,19 +105,19 @@ def load_user_data(scene):
     directory = None
 
     if scenename == '新生适应向导':
-        directory = "E:/工作/BkmGPT语料/电机/新生适应向导"
+        directory = "Collage/Data/电机/新生适应向导"
     elif scenename == '智慧教务答疑':
-        directory = "E:/工作/BkmGPT语料/电机/智慧教务答疑"
+        directory = "Collage/Data/电机/智慧教务答疑"
     elif scenename == '科研论文助手':
-        directory = "E:/工作/BkmGPT语料/电机/科研论文助手"
+        directory = "Collage/Data/电机/科研论文助手"
     elif scenename == '智慧校园答疑':
-        directory = "E:/工作/BkmGPT语料/电机/智慧校园答疑"
+        directory = "Collage/Data/电机/智慧校园答疑"
     elif scenename == '智慧学工向导':
-        directory = "E:/工作/BkmGPT语料/电机/智慧学工向导"
+        directory = "Collage/Data/电机/智慧学工向导"
     elif scenename == '智慧学习答疑':
-        directory = "E:/工作/BkmGPT语料/电机/智慧学习答疑"
+        directory = "Collage/Data/电机/智慧学习答疑"
     elif scenename == '智慧招生咨询':
-        directory = "E:/工作/BkmGPT语料/电机/智慧招生咨询"
+        directory = "Collage/Data/电机/智慧招生咨询"
     # 检查directory是否已经赋值
     if directory is None:
         print(f"Scene name '{scenename}' not recognized.")
@@ -244,7 +244,7 @@ def get_answer(query, scenename, reset=False):
         'top_scores': [doc[1] for doc in top_k_documents]  # Add this line to return the top BM25 scores
     }
 
-    with open(r'E:\工作\LangchainQA\QA_school_record.json', 'a', encoding='utf-8') as f:
+    with open(r'LLMs-QA-system\Collage\Algorithm\QA_school_record.json', 'a', encoding='utf-8') as f:
         f.write(json.dumps(qa_data, ensure_ascii=False) + '\n')
     return {'content': response, 'documents': [(doc[0][0], doc[0][1], doc[0][2], doc[1]) for doc in top_k_documents],
             'highlight': highlight}

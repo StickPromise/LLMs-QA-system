@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, send_file
-from LangchainQA16_0 import get_answer, load_user_data, load_all_data
+from QAcompany import get_answer, load_user_data, load_all_data
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
 from urllib.parse import unquote
@@ -34,9 +34,9 @@ def api_get_answer():
 
 @app.route('/get_file/<scenename>/<filename>')
 def get_file(scenename, filename):
-    file_path = f"E:/工作/BkmGPT语料/企业/{scenename}/{filename}"  # 根据场景名称和文件名构建文件路径
+    file_path = f"LLMs-QA-system/company/Data/{scenename}/{filename}"  # 根据场景名称和文件名构建文件路径
     return send_file(file_path, as_attachment=True)
 
 
 if __name__ == '__main__':
-    app.run(host='172.16.20.239', port=5000, debug=True)
+    app.run(host='localhost', port=5000, debug=True)
