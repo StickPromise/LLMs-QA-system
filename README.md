@@ -11,7 +11,8 @@ LLMs-QA-system
 │   ├── Algorithm/
 │   │   ├── QACollege.py  (主要算法代码)
 │   │   ├── Collegeapp.py  (接口文件)
-│   │   └── Collegetest.py       (测试文件)
+│   │   └── Collegetest.py (测试文件)
+|   |   └── stopwords.txt  (停用词文件)
 │   └── Data/              (数据文件)
 │
 ├── Company/
@@ -19,6 +20,7 @@ LLMs-QA-system
 │   │   ├── LangchaninQA16_0.py
 │   │   ├── app.py
 │   │   └── test.py
+|   |   └── stopwords.txt
 │   └── Data/
 │
 ├── ...
@@ -27,9 +29,12 @@ LLMs-QA-system
 │   ├── Algorithm/
 │   │   ├── QAOldcollege.py
 │   │   ├── QAOldcollegeapp.py
+|   |   └── stopwords.txt
 │   │   
 │   └── Data/
 │
 ├── requirements.txt      (依赖文件)
 └── README.md             (项目说明)
 
+对于每一版本中的数据集地址麻烦再检查一下是否正确，请自行调整一下
+并且每一版本的app文件中也请更改一下localhost的地址和端口号
