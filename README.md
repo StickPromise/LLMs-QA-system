@@ -9,36 +9,39 @@
 
 ## 文件结构
 
+\`\`\`
 LLMs-QA-system
 │
 ├── College/
-│ ├── Algorithm/
-│ │ ├── QACollege.py (主要算法代码)
-│ │ ├── Collegeapp.py (接口文件)
-│ │ └── Collegetest.py (测试文件)
-│ │ └── stopwords.txt (停用词文件)
-│ └── Data/ (数据文件)
+│   ├── Algorithm/
+│   │   ├── QACollege.py  (主要算法代码)
+│   │   ├── Collegeapp.py  (接口文件)
+│   │   └── Collegetest.py (测试文件)
+│   │   └── stopwords.txt  (停用词文件)
+│   └── Data/              (数据文件)
 │
 ├── Company/
-│ ├── Algorithm/
-│ │ ├── LangchaninQA16_0.py
-│ │ ├── app.py
-│ │ └── test.py
-│ │ └── stopwords.txt
-│ └── Data/
+│   ├── Algorithm/
+│   │   ├── LangchaninQA16_0.py
+│   │   ├── app.py
+│   │   └── test.py
+│   │   └── stopwords.txt
+│   └── Data/
 │
 ├── ...
 │
 ├── OLdcollege/
-│ ├── Algorithm/
-│ │ ├── QAOldcollege.py
-│ │ ├── QAOldcollegeapp.py
-│ │ └── stopwords.txt
-│ │
-│ └── Data/
+│   ├── Algorithm/
+│   │   ├── QAOldcollege.py
+│   │   ├── QAOldcollegeapp.py
+│   │   └── stopwords.txt
+│   │   
+│   └── Data/
 │
-├── requirements.txt (依赖文件)
-└── README.md (项目说明)
+├── requirements.txt      (依赖文件)
+└── README.md             (项目说明)
+\`\`\`
+
 
 > **注意**：对于每一版本中的数据集地址，请再检查一下是否正确，并自行调整。同时，在每一版本的`app`文件中，请更改`localhost`的地址和端口号。
 
