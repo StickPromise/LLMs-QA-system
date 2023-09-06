@@ -40,6 +40,13 @@ LLMs-QA-system
 │   │   └── stopwords.txt
 │   │   
 │   └── Data/
+|
+├── foreend/
+│   ├── 党建版
+│   ├── 高校版
+│   ├── 老年高校版
+│   └── 企业版
+│     
 │
 ├── requirements.txt      (依赖文件)
 └── README.md             (项目说明)
@@ -61,3 +68,4 @@ LLMs-QA-system
 5. **设置进程管理**：创建一个`systemd`服务文件来保持应用持续运行（未经测试）。
 6. **启动并激活服务**
 7. **修改防火墙设置**
+
