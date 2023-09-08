@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from langchain.document_loaders import DirectoryLoader
 import jieba
 import jieba.posseg as pseg
@@ -108,13 +110,13 @@ def load_user_data(scene):
     directory = None
 
     if scenename == '党纪党规':
-        directory = "Dangwu/Algorithm/党建助手/党纪党规"
+        directory = "../Data/党建助手/党纪党规"
     elif scenename == '智慧党建':
-        directory = "Dangwu/Algorithm/党建助手/智慧党建"
+        directory = "../Data/党建助手/智慧党建"
     elif scenename == '党员教育':
-        directory = "Dangwu/Algorithm/党建助手/党员教育"
+        directory = "../Data/党建助手/党员教育"
     elif scenename == '红色历程':
-        directory = "Dangwu/Algorithm/党建助手/红色历程"
+        directory = "../Data/党建助手/红色历程"
     # 检查directory是否已经赋值
     if directory is None:
         print(f"Scene name '{scenename}' not recognized.")
@@ -139,7 +141,7 @@ def load_all_data():
 # 历史记录清空功能
 def clean_dialogue_cache():
     # 清空历史对话，开启新的对话
-    requests.post("http://10.176.40.138:23489/ddemos/cutegpt_normal/run/delete", json={
+    requests.post("http://kw.fudan.edu.cn/ddemos/shuangdi/proxy/delete", json={
         "data": [
         ]
     }).json()
@@ -159,7 +161,7 @@ def get_ans(query):
     print("发送的查询:", query)
     print("历史记录:", history)
     # 将历史对话和当前查询传递给GPT模型
-    response = requests.post("http://10.176.40.138:23489/ddemos/cutegpt_normal/run/submit", json={
+    response = requests.post("http://kw.fudan.edu.cn/ddemos/shuangdi/proxy/submit", json={
         "data": [
             query,
             [item[0] for item in history],  # 历史问题

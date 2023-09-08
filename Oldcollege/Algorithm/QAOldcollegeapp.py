@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from flask import Flask, request, jsonify, send_file
 from QAOldCollege import get_answer, load_user_data, load_all_data
 from flask_cors import CORS
@@ -25,9 +27,9 @@ def api_get_answer():
 
 @app.route('/get_file/<scenename>/<filename>')
 def get_file(scenename, filename):
-    file_path = f"LLMs-QA-system/Oldcollege/Data/奉贤老年大学/{scenename}/{filename}"  # 根据场景名称和文件名构建文件路径
+    file_path = f"../Data/奉贤老年大学/{scenename}/{filename}"  # 根据场景名称和文件名构建文件路径
     return send_file(file_path, as_attachment=True)
 
 
 if __name__ == '__main__':
-    app.run(host='localhost', port=5004, debug=True)
+    app.run(host='101.132.161.92', port=5024, debug=True)

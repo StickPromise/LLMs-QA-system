@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from flask import Flask, request, jsonify, send_file
 from QACollege import get_answer, load_user_data, load_all_data
 from flask_cors import CORS
@@ -25,9 +27,9 @@ def api_get_answer():
 
 @app.route('/get_file/<scenename>/<filename>')
 def get_file(scenename, filename):
-    file_path = f"E:/工作/BkmGPT语料/电机/{scenename}/{filename}"  # 根据场景名称和文件名构建文件路径
+    file_path = f"../Data/电机/{scenename}/{filename}"  # 根据场景名称和文件名构建文件路径
     return send_file(file_path, as_attachment=True)
 
 
 if __name__ == '__main__':
-    app.run(host='172.16.20.239', port=5002, debug=True)
+    app.run(host='101.132.161.92', port=5020, debug=True)

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from langchain.document_loaders import DirectoryLoader
 import jieba
 import jieba.posseg as pseg
@@ -105,13 +107,13 @@ def load_user_data(scene):
     directory = None
 
     if scenename == '学校全景解读':
-        directory = "LLMs-QA-system/Oldcollege/Data/奉贤老年大学/学校全景解读"
+        directory = "../Data/奉贤老年大学/学校全景解读"
     elif scenename == '招生专业问答':
-        directory = "LLMs-QA-system/Oldcollege/Data/奉贤老年大学/招生专业问答"
+        directory = "../Data/奉贤老年大学/招生专业问答"
     elif scenename == '智慧校园答疑':
-        directory = "LLMs-QA-system/Oldcollege/Data/奉贤老年大学/智慧校园答疑"
+        directory = "../Data/奉贤老年大学/智慧校园答疑"
     elif scenename == '智慧学习答疑':
-        directory = "LLMs-QA-system/Oldcollege/Data/奉贤老年大学/智慧学习答疑"
+        directory = "../Data/奉贤老年大学/智慧学习答疑"
     # 检查directory是否已经赋值
     if directory is None:
         print(f"Scene name '{scenename}' not recognized.")
@@ -136,7 +138,7 @@ def load_all_data():
 # 历史记录清空功能
 def clean_dialogue_cache():
     # 清空历史对话，开启新的对话
-    requests.post("http://10.176.40.138:23489/ddemos/cutegpt_normal/run/delete", json={
+    requests.post("http://kw.fudan.edu.cn/ddemos/shuangdi/proxy/delete", json={
         "data": [
         ]
     }).json()
@@ -156,7 +158,7 @@ def get_ans(query):
     print("发送的查询:", query)
     print("历史记录:", history)
     # 将历史对话和当前查询传递给GPT模型
-    response = requests.post("http://10.176.40.138:23489/ddemos/cutegpt_normal/run/submit", json={
+    response = requests.post("http://kw.fudan.edu.cn/ddemos/shuangdi/proxy/submit", json={
         "data": [
             query,
             [item[0] for item in history],  # 历史问题

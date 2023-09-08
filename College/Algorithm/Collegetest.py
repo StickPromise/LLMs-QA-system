@@ -12,7 +12,7 @@ scenename = "新学员适应向导"  # 替换为您的场景名称
 question = "请你介绍一下上海电机学院"  # 替换为您的问题
 
 # 定义请求URL
-get_answer_url = "http://172.16.20.239:5002/api/get_answer"
+get_answer_url = "http://101.132.161.92:5020/api/get_answer"
 
 # 定义发送的JSON数据
 request_data = {
@@ -31,7 +31,7 @@ answer_data = get_answer_response.json()
 print("Answer:", json.dumps(answer_data, indent=4, ensure_ascii=False))
 
 # 调用/get_file/<scenename>/<filename>端点获取文件
-get_file_url = f"http://172.16.20.239:5002/get_file/{scenename}/{filename}"
+get_file_url = f"http://101.132.161.92:5020/get_file/{scenename}/{filename}"
 get_file_response = requests.get(get_file_url)
 
 # 打印回答

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from langchain.document_loaders import DirectoryLoader
 import jieba
 import jieba.posseg as pseg
@@ -17,6 +18,7 @@ from sentence_transformers import SentenceTransformer
 import numpy as np
 import re
 from nltk.tokenize import sent_tokenize
+# -*- coding: utf-8 -*-
 
 # 确保下载了Punkt句子分词器
 import nltk
@@ -105,19 +107,19 @@ def load_user_data(scene):
     directory = None
 
     if scenename == '新生适应向导':
-        directory = "Collage/Data/电机/新生适应向导"
+        directory = "../Data/电机/新生适应向导"
     elif scenename == '智慧教务答疑':
-        directory = "Collage/Data/电机/智慧教务答疑"
+        directory = "../Data/电机/智慧教务答疑"
     elif scenename == '科研论文助手':
-        directory = "Collage/Data/电机/科研论文助手"
+        directory = "../Data/电机/科研论文助手"
     elif scenename == '智慧校园答疑':
-        directory = "Collage/Data/电机/智慧校园答疑"
+        directory = "../Data/电机/智慧校园答疑"
     elif scenename == '智慧学工向导':
-        directory = "Collage/Data/电机/智慧学工向导"
+        directory = "../Data/电机/智慧学工向导"
     elif scenename == '智慧学习答疑':
-        directory = "Collage/Data/电机/智慧学习答疑"
+        directory = "../Data/电机/智慧学习答疑"
     elif scenename == '智慧招生咨询':
-        directory = "Collage/Data/电机/智慧招生咨询"
+        directory = "../Data/电机/智慧招生咨询"
     # 检查directory是否已经赋值
     if directory is None:
         print(f"Scene name '{scenename}' not recognized.")
@@ -142,7 +144,7 @@ def load_all_data():
 # 历史记录清空功能
 def clean_dialogue_cache():
     # 清空历史对话，开启新的对话
-    requests.post("http://10.176.40.138:23489/ddemos/cutegpt_normal/run/delete", json={
+    requests.post("http://kw.fudan.edu.cn/ddemos/shuangdi/proxy/delete", json={
         "data": [
         ]
     }).json()
@@ -162,7 +164,7 @@ def get_ans(query):
     print("发送的查询:", query)
     print("历史记录:", history)
     # 将历史对话和当前查询传递给GPT模型
-    response = requests.post("http://10.176.40.138:23489/ddemos/cutegpt_normal/run/submit", json={
+    response = requests.post("http://kw.fudan.edu.cn/ddemos/shuangdi/proxy/submit", json={
         "data": [
             query,
             [item[0] for item in history],  # 历史问题
@@ -244,16 +246,16 @@ def get_answer(query, scenename, reset=False):
         'top_scores': [doc[1] for doc in top_k_documents]  # Add this line to return the top BM25 scores
     }
 
-    with open(r'LLMs-QA-system\Collage\Algorithm\QA_school_record.json', 'a', encoding='utf-8') as f:
+    with open('QA_school_record.json', 'a', encoding='utf-8') as f:
         f.write(json.dumps(qa_data, ensure_ascii=False) + '\n')
     return {'content': response, 'documents': [(doc[0][0], doc[0][1], doc[0][2], doc[1]) for doc in top_k_documents],
             'highlight': highlight}
 
-#
-# load_all_data()
-# scenename = '科研论文助手'
-# query = "开题报告填写事项是什么？"
-# result = get_answer(query, scenename)
-# print(result)
+
+load_all_data()
+scenename = '科研论文助手'
+query = "开题报告填写事项是什么？"
+result = get_answer(query, scenename)
+print(result)
 
 
