@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from langchain.document_loaders import DirectoryLoader
 import jieba
 import jieba.posseg as pseg
@@ -23,7 +22,7 @@ from nltk.tokenize import sent_tokenize
 import nltk
 nltk.download('punkt')
 
-device = torch.device("cpu")
+
 os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
 # 添加一个字典来保存每个用户的数据和索引库
@@ -41,7 +40,7 @@ class Document:
         self.page_number = page_number
 
 # 读取停用词文件
-with open("stopwords.txt", "r", encoding="utf-8") as f:
+with open("/chatgpt/old-version1/Oldcollege/Algorithm/stopwords.txt", "r", encoding="utf-8") as f:
     stopwords = [line.strip() for line in f]
 
 # 读取文件
@@ -54,12 +53,17 @@ def load_all_docs_and_pdfs(directory):
             document_data = loader.load()
             data.append(document_data)
         elif filename.endswith(".pdf"):
-            # 使用 PyPDFLoader 读取 PDF 文件
-            loader = PyPDFLoader(path)
-            pages = loader.load_and_split()
-            # 将每一页作为一个单独的文档添加到数据中
-            for page in pages:
-                data.append([page])  # 每一页作为一个文档列表的元素
+            try:
+                # 使用 PyPDFLoader 读取 PDF 文件
+                loader = PyPDFLoader(path)
+                pages = loader.load_and_split()
+                # 将每一页作为一个单独的文档添加到数据中
+                for page in pages:
+                    data.append([page])  # 每一页作为一个文档列表的元素
+                    print(f"Successfully read .pdf file: {filename}")
+
+            except Exception as e:
+                print(f"Failed to read .pdf file: {filename}. Error: {e}")
     return data
 
 # 对文本进行分割，分割后进行存储和添加信息
@@ -83,6 +87,11 @@ def process_documents(data):
                     document_texts.add(filtered_text)
 
     tokenized_documents = [list(jieba.cut(doc.page_content)) for doc in documents]
+    # 检查tokenized_documents是否为空
+    if len(tokenized_documents) == 0:
+        print("警告: 处理后的文档为空。请检查输入文件和处理逻辑。")
+        return None, None
+
     bm25 = BM25Okapi(tokenized_documents)
     scene_data[scenename] = (documents, bm25)
 
@@ -153,9 +162,11 @@ def get_ans(query):
             query,
             [item[0] for item in history],  # 历史问题
             [item[1] for item in history],  # 历史回答
+            None,
         ]
     }).json()
-    return response["data"][0][0][1]
+    print("响应:", response)
+    return response["data"]
 
 def print_histories(histories):
     rnd = 0
@@ -165,7 +176,7 @@ def print_histories(histories):
         print('CuteGPT:', ans)
         rnd += 1
 
-model = SentenceTransformer('bert-base-nli-mean-tokens')
+model = SentenceTransformer('/chatgpt/old-version1/Oldcollege/Algorithm/')
 
 
 def find_most_similar_sentences(answer, documents, top_n=3):
@@ -235,10 +246,10 @@ def get_answer(query, scenename, reset=False):
             'highlight': highlight}
 
 
-# load_all_data()
-# scenename = 'IT系统使用向导'
-# query = "公司的工单系统中如何新增用户？"
-# result = get_answer(query, scenename)
-# print(result)
+load_all_data()
+scenename = 'IT系统使用向导'
+query = "公司的工单系统中如何新增用户？"
+result = get_answer(query, scenename)
+print(result)
 
 

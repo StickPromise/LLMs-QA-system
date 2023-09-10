@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from flask import Flask, request, jsonify, send_file
 from QAcompany import get_answer, load_user_data, load_all_data
 from flask_cors import CORS

@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from langchain.document_loaders import DirectoryLoader
 import jieba
 import jieba.posseg as pseg
@@ -24,7 +22,6 @@ from nltk.tokenize import sent_tokenize
 import nltk
 nltk.download('punkt')
 
-device = torch.device("cpu")
 os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
 # 添加一个字典来保存每个用户的数据和索引库
@@ -42,7 +39,7 @@ class Document:
         self.page_number = page_number
 
 # 读取停用词文件
-with open("stopwords.txt", "r", encoding="utf-8") as f:
+with open("/chatgpt/old-version1/Oldcollege/Algorithm/stopwords.txt", "r", encoding="utf-8") as f:
     stopwords = [line.strip() for line in f]
 
 # 读取文件
@@ -163,10 +160,11 @@ def get_ans(query):
             query,
             [item[0] for item in history],  # 历史问题
             [item[1] for item in history],  # 历史回答
+            None,
         ]
     }).json()
     print("响应:", response)
-    return response["data"][0][0][1]
+    return response["data"]
 
 def print_histories(histories):
     rnd = 0
@@ -176,7 +174,7 @@ def print_histories(histories):
         print('CuteGPT:', ans)
         rnd += 1
 
-model = SentenceTransformer('bert-base-nli-mean-tokens')
+model = SentenceTransformer('/chatgpt/old-version1/Oldcollege/Algorithm/')
 
 
 def find_most_similar_sentences(answer, documents, top_n=3):
@@ -246,10 +244,10 @@ def get_answer(query, scenename, reset=False):
             'highlight': highlight}
 
 
-# load_all_data()
-# scenename = '科研论文助手'
-# query = "开题报告填写事项是什么？"
-# result = get_answer(query, scenename)
-# print(result)
+load_all_data()
+scenename = '学校全景解读'
+query = "学校的名字是什么？"
+result = get_answer(query, scenename)
+print(result)
 
 

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 from flask import Flask, request, jsonify, send_file
 from QAOldCollege import get_answer, load_user_data, load_all_data

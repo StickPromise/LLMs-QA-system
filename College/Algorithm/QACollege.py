@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 from langchain.document_loaders import DirectoryLoader
 import jieba
 import jieba.posseg as pseg
@@ -24,7 +24,6 @@ from nltk.tokenize import sent_tokenize
 import nltk
 nltk.download('punkt')
 
-device = torch.device("cpu")
 os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
 # 添加一个字典来保存每个用户的数据和索引库
@@ -42,7 +41,7 @@ class Document:
         self.page_number = page_number
 
 # 读取停用词文件
-with open("stopwords.txt", "r", encoding="utf-8") as f:
+with open("/chatgpt/old-version1/Oldcollege/Algorithm/stopwords.txt", "r", encoding="utf-8") as f:
     stopwords = [line.strip() for line in f]
 
 # 读取文件
@@ -62,8 +61,10 @@ def load_all_docs_and_pdfs(directory):
                 # 将每一页作为一个单独的文档添加到数据中
                 for page in pages:
                     data.append([page])  # 每一页作为一个文档列表的元素
-            except:
-                print(f"文件 {path} 为空或无法读取")
+                    print(f"Successfully read .pdf file: {filename}")
+
+            except Exception as e:
+                print(f"Failed to read .pdf file: {filename}. Error: {e}")
     return data
 
 # 对文本进行分割，分割后进行存储和添加信息
@@ -155,8 +156,6 @@ def append_history(query, answer):
     global history
     history.append((query, answer))  # 将新的对话添加到历史中
 
-
-
 # 调用大模型回答问题，同时考虑历史记录问题
 def get_ans(query):
     global history
@@ -169,10 +168,11 @@ def get_ans(query):
             query,
             [item[0] for item in history],  # 历史问题
             [item[1] for item in history],  # 历史回答
+            None,
         ]
     }).json()
     print("响应:", response)
-    return response["data"][0][0][1]
+    return response["data"]
 
 def print_histories(histories):
     rnd = 0
@@ -182,7 +182,7 @@ def print_histories(histories):
         print('CuteGPT:', ans)
         rnd += 1
 
-model = SentenceTransformer('bert-base-nli-mean-tokens')
+model = SentenceTransformer('/chatgpt/old-version1/Oldcollege/Algorithm/')
 
 
 def find_most_similar_sentences(answer, documents, top_n=3):
@@ -222,8 +222,8 @@ def get_answer(query, scenename, reset=False):
                         i in most_similar_indices}
     sorted_unique_documents = sorted(unique_documents.items(), key=lambda x: x[1], reverse=True)
     top_k_documents = sorted_unique_documents[:k]
-    # if top_k_documents[0][1] < 5.0:  # 如果最高得分低于7，返回特定的消息
-    #     return {'content': "您的问题超出了我的知识范围哦，请在菜单中换个知识助手试试吧", 'documents': [], 'highlight': ""}
+    if top_k_documents[0][1] < 5.0:  # 如果最高得分低于7，返回特定的消息
+        return {'content': "您的问题超出了我的知识范围哦，请在菜单中换个知识助手试试吧", 'documents': [], 'highlight': ""}
     # Step 3：构造prompts
     context = ' '.join(f"{doc[0][0]}\n" for doc in top_k_documents)
     prompt = f"参考以下与问题相关的{k}段文本:\n{context}，然后回答以下问题：{query}\n 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。"
