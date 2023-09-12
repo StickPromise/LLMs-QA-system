@@ -6,7 +6,7 @@ from io import BytesIO
 filename = "学校简介.pdf"
 
 # 定义场景名称
-scenename = "新学员适应向导"  # 替换为您的场景名称
+scenename = "新生适应向导"  # 替换为您的场景名称
 
 # 定义问题
 question = "请你介绍一下上海电机学院"  # 替换为您的问题
@@ -23,7 +23,7 @@ request_data = {
 
 # 发送POST请求到/api/get_answer端点，获取回答
 get_answer_response = requests.post(get_answer_url, json=request_data)
-
+print(get_answer_response)
 # 获取JSON响应数据
 answer_data = get_answer_response.json()
 
@@ -31,7 +31,8 @@ answer_data = get_answer_response.json()
 print("Answer:", json.dumps(answer_data, indent=4, ensure_ascii=False))
 
 # 调用/get_file/<scenename>/<filename>端点获取文件
-get_file_url = f"http://101.132.161.92:5020/get_file/{scenename}/{filename}"
+get_file_url = f"http://101.132.161.92:5020/api/get_file/{scenename}/{filename}"
+print(get_file_url)
 get_file_response = requests.get(get_file_url)
 
 # 打印回答

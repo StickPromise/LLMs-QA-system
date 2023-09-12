@@ -6,10 +6,10 @@ from io import BytesIO
 filename = "公司章程2018.pdf"
 
 # 定义场景名称
-scenename = "智慧招生答疑"  # 替换为您的场景名称
+scenename = "新员工适应向导"  # 替换为您的场景名称
 
 # 定义问题
-question = "设计与艺术学院的就业前景"  # 替换为您的问题
+question = "请介绍一下公司"  # 替换为您的问题
 
 # 定义请求URL
 get_answer_url = "http://101.132.161.92:5021/api/get_answer"
@@ -31,7 +31,8 @@ answer_data = get_answer_response.json()
 print("Answer:", json.dumps(answer_data, indent=4, ensure_ascii=False))
 
 # 调用/get_file/<scenename>/<filename>端点获取文件
-get_file_url = f"http://101.132.161.92:5021/get_file/{scenename}/{filename}"
+get_file_url = f"http://101.132.161.92:5021/api/get_file/{scenename}/{filename}"
+print("success:", get_file_url)
 get_file_response = requests.get(get_file_url)
 
 # 打印回答

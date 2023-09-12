@@ -104,13 +104,13 @@ def load_user_data(scene):
     directory = None
 
     if scenename == '学校全景解读':
-        directory = "../Data/奉贤老年大学/学校全景解读"
+        directory = "/chatgpt/LLMs-QA-system/Oldcollege/Data/奉贤老年大学/学校全景解读/"
     elif scenename == '招生专业问答':
-        directory = "../Data/奉贤老年大学/招生专业问答"
+        directory = "/chatgpt/LLMs-QA-system/Oldcollege/Data/奉贤老年大学/招生专业问答/"
     elif scenename == '智慧校园答疑':
-        directory = "../Data/奉贤老年大学/智慧校园答疑"
+        directory = "/chatgpt/LLMs-QA-system/Oldcollege/Data/奉贤老年大学/智慧校园答疑/"
     elif scenename == '智慧学习答疑':
-        directory = "../Data/奉贤老年大学/智慧学习答疑"
+        directory = "/chatgpt/LLMs-QA-system/Oldcollege/Data/奉贤老年大学/智慧学习答疑/"
     # 检查directory是否已经赋值
     if directory is None:
         print(f"Scene name '{scenename}' not recognized.")
@@ -238,16 +238,16 @@ def get_answer(query, scenename, reset=False):
         'top_scores': [doc[1] for doc in top_k_documents]  # Add this line to return the top BM25 scores
     }
 
-    with open('QA_oldschool_record.json', 'a', encoding='utf-8') as f:
+    with open("/chatgpt/LLMs-QA-system/Oldcollege/Algorithm/QA_oldschool_record.json", 'a', encoding='utf-8') as f:
         f.write(json.dumps(qa_data, ensure_ascii=False) + '\n')
     return {'content': response, 'documents': [(doc[0][0], doc[0][1], doc[0][2], doc[1]) for doc in top_k_documents],
             'highlight': highlight}
 
-
-load_all_data()
-scenename = '学校全景解读'
-query = "学校的名字是什么？"
-result = get_answer(query, scenename)
-print(result)
+#
+# load_all_data()
+# scenename = '学校全景解读'
+# query = "学校的名字是什么？"
+# result = get_answer(query, scenename)
+# print(result)
 
 

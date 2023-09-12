@@ -32,11 +32,11 @@ def api_get_answer():
         return jsonify({'message': 'No question provided.'}), 400
 
 
-@app.route('/get_file/<scenename>/<filename>')
+@app.route('/api/get_file/<scenename>/<filename>')
 def get_file(scenename, filename):
-    file_path = f"../Data/{scenename}/{filename}"  # 根据场景名称和文件名构建文件路径
+    file_path = f"/chatgpt/LLMs-QA-system/Company/Data/企业/{scenename}/{filename}"  # 根据场景名称和文件名构建文件路径
     return send_file(file_path, as_attachment=True)
 
 
 if __name__ == '__main__':
-    app.run(host='101.132.161.92', port=5021, debug=True)
+    app.run(host='0.0.0.0', port=5021, debug=True)

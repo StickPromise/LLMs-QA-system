@@ -107,15 +107,15 @@ def load_user_data(scene):
     directory = None
 
     if scenename == '新员工适应向导':
-        directory = "../Data/企业/新员工适应向导"
+        directory = "/chatgpt/LLMs-QA-system/Company/Data/企业/新员工适应向导/"
     elif scenename == '岗位知识支持助手':
-        directory = "../Data/企业/岗位知识支持助手"
+        directory = "/chatgpt/LLMs-QA-system/Company/Data/企业/岗位知识支持助手/"
     elif scenename == 'IT系统使用向导':
-        directory = "../Data/企业/IT系统使用向导"
+        directory = "/chatgpt/LLMs-QA-system/Company/Data/企业/IT系统使用向导/"
     elif scenename == '生产设备&工艺知识库':
-        directory = "../Data/企业/生产设备&工艺知识库"
+        directory = "/chatgpt/LLMs-QA-system/Company/Data/企业/生产设备&工艺知识库/"
     elif scenename == '行业&领域知识仓库':
-        directory = "../Data/企业/行业&领域知识仓库"
+        directory = "/chatgpt/LLMs-QA-system/Company/Data/企业/行业&领域知识仓库/"
     # 检查directory是否已经赋值
     if directory is None:
         print(f"Scene name '{scenename}' not recognized.")
@@ -240,16 +240,16 @@ def get_answer(query, scenename, reset=False):
         'top_scores': [doc[1] for doc in top_k_documents]  # Add this line to return the top BM25 scores
     }
 
-    with open('QA_record.json', 'a', encoding='utf-8') as f:
+    with open("/chatgpt/LLMs-QA-system/Company/Algorithm/QA_record.json", 'a', encoding='utf-8') as f:
         f.write(json.dumps(qa_data, ensure_ascii=False) + '\n')
     return {'content': response, 'documents': [(doc[0][0], doc[0][1], doc[0][2], doc[1]) for doc in top_k_documents],
             'highlight': highlight}
 
-
-load_all_data()
-scenename = 'IT系统使用向导'
-query = "公司的工单系统中如何新增用户？"
-result = get_answer(query, scenename)
-print(result)
+# 
+# load_all_data()
+# scenename = 'IT系统使用向导'
+# query = "公司的工单系统中如何新增用户？"
+# result = get_answer(query, scenename)
+# print(result)
 
 

@@ -108,19 +108,19 @@ def load_user_data(scene):
     directory = None
 
     if scenename == '新生适应向导':
-        directory = "../Data/电机/新生适应向导"
+        directory = "/chatgpt/LLMs-QA-system/College/Data/电机/新生适应向导/"
     elif scenename == '智慧教务答疑':
-        directory = "../Data/电机/智慧教务答疑"
+        directory = "/chatgpt/LLMs-QA-system/College/Data/电机/智慧教务答疑"
     elif scenename == '科研论文助手':
-        directory = "../Data/电机/科研论文助手"
+        directory = "/chatgpt/LLMs-QA-system/College/Data/电机/科研论文助手"
     elif scenename == '智慧校园答疑':
-        directory = "../Data/电机/智慧校园答疑"
+        directory = "/chatgpt/LLMs-QA-system/College/Data/电机/智慧校园答疑"
     elif scenename == '智慧学工向导':
-        directory = "../Data/电机/智慧学工向导"
+        directory = "/chatgpt/LLMs-QA-system/College/Data/电机/智慧学工向导"
     elif scenename == '智慧学习答疑':
-        directory = "../Data/电机/智慧学习答疑"
+        directory = "/chatgpt/LLMs-QA-system/College/Data/电机/智慧学习答疑"
     elif scenename == '智慧招生咨询':
-        directory = "../Data/电机/智慧招生咨询"
+        directory = "/chatgpt/LLMs-QA-system/College/Data/电机/智慧招生咨询"
     # 检查directory是否已经赋值
     if directory is None:
         print(f"Scene name '{scenename}' not recognized.")
@@ -171,7 +171,7 @@ def get_ans(query):
             None,
         ]
     }).json()
-    print("响应:", response)
+    # print("响应:", response)
     return response["data"]
 
 def print_histories(histories):
@@ -204,8 +204,8 @@ def get_answer(query, scenename, reset=False):
     global history_dict
     # Step 1: 处理重置选项
     if reset:
-        history_dict[scenename] = []
         clean_dialogue_cache()  # 清除GPT模型的历史对话
+        history_dict[scenename] = []
     history = history_dict.get(scenename, [])
     # Step 2：获取对应用户的文档和索引
     print(f"Getting answer for scene: {scenename}")
@@ -222,8 +222,8 @@ def get_answer(query, scenename, reset=False):
                         i in most_similar_indices}
     sorted_unique_documents = sorted(unique_documents.items(), key=lambda x: x[1], reverse=True)
     top_k_documents = sorted_unique_documents[:k]
-    if top_k_documents[0][1] < 5.0:  # 如果最高得分低于7，返回特定的消息
-        return {'content': "您的问题超出了我的知识范围哦，请在菜单中换个知识助手试试吧", 'documents': [], 'highlight': ""}
+    # if top_k_documents[0][1] < 5.0:  # 如果最高得分低于7，返回特定的消息
+    #     return {'content': "您的问题超出了我的知识范围哦，请在菜单中换个知识助手试试吧", 'documents': [], 'highlight': ""}
     # Step 3：构造prompts
     context = ' '.join(f"{doc[0][0]}\n" for doc in top_k_documents)
     prompt = f"参考以下与问题相关的{k}段文本:\n{context}，然后回答以下问题：{query}\n 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。"
@@ -246,16 +246,16 @@ def get_answer(query, scenename, reset=False):
         'top_scores': [doc[1] for doc in top_k_documents]  # Add this line to return the top BM25 scores
     }
 
-    with open('QA_school_record.json', 'a', encoding='utf-8') as f:
+    with open("/chatgpt/LLMs-QA-system/College/Algorithm/stopwords.txt", 'a', encoding='utf-8') as f:
         f.write(json.dumps(qa_data, ensure_ascii=False) + '\n')
     return {'content': response, 'documents': [(doc[0][0], doc[0][1], doc[0][2], doc[1]) for doc in top_k_documents],
             'highlight': highlight}
 
 
-load_all_data()
-scenename = '科研论文助手'
-query = "开题报告填写事项是什么？"
-result = get_answer(query, scenename)
-print(result)
+# load_all_data()
+# scenename = '科研论文助手'
+# query = "开题报告填写事项是什么？"
+# result = get_answer(query, scenename, reset=True)
+# print(result)
 
 
