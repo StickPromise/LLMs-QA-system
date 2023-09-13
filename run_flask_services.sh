@@ -15,3 +15,7 @@ nohup flask run --host=0.0.0.0 --port=5022 &
 # 启动第四个服务
 export FLASK_APP="/chatgpt/LLMs-QA-system/Oldcollege/Algorithm/QAOldcollegeapp.py"
 nohup flask run --host=0.0.0.0 --port=5024 &
+
+# 启动第五个服务
+export FLASK_APP="/chatgpt/LLMs-QA-system/streettown/Algorithm/QAstreetapp.py"
+nohup flask run --host=0.0.0.0 --port=5023 &

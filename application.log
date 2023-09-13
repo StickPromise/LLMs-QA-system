@@ -183,3 +183,99 @@ DEBUG:urllib3.connectionpool:http://kw.fudan.edu.cn:80 "POST /ddemos/shuangdi/pr
 DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): kw.fudan.edu.cn:80
 DEBUG:urllib3.connectionpool:http://kw.fudan.edu.cn:80 "POST /ddemos/shuangdi/proxy/submit HTTP/1.1" 200 180
 INFO:werkzeug:127.0.0.1 - - [12/Sep/2023 14:22:13] "POST /api/get_answer HTTP/1.0" 200 -
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+DEBUG:jieba:Loading model from cache /tmp/jieba.cache
+DEBUG:jieba:Loading model cost 0.841 seconds.
+DEBUG:jieba:Prefix dict has been built successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5020
+ * Running on http://10.28.92.73:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:Collegeapp:Debug: Attempting to send file from /chatgpt/LLMs-QA-system/College/Data/电机/新生适应向导/资源使用手册.pdf
+INFO:werkzeug:127.0.0.1 - - [12/Sep/2023 17:14:58] "GET /api/get_file/新生适应向导/资源使用手册.pdf HTTP/1.0" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): kw.fudan.edu.cn:80
+DEBUG:urllib3.connectionpool:http://kw.fudan.edu.cn:80 "POST /ddemos/shuangdi/proxy/delete HTTP/1.1" 200 28
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): kw.fudan.edu.cn:80
+DEBUG:urllib3.connectionpool:http://kw.fudan.edu.cn:80 "POST /ddemos/shuangdi/proxy/submit HTTP/1.1" 502 341
+ERROR:Collegeapp:Exception on /api/get_answer [POST]
+Traceback (most recent call last):
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/chatgpt/LLMs-QA-system/College/Algorithm/Collegeapp.py", line 24, in api_get_answer
+    answer = get_answer(question, scene, reset=reset)
+  File "/chatgpt/LLMs-QA-system/College/Algorithm/QACollege.py", line 234, in get_answer
+    response = get_ans(prompt_with_history)
+  File "/chatgpt/LLMs-QA-system/College/Algorithm/QACollege.py", line 166, in get_ans
+    response = requests.post("http://kw.fudan.edu.cn/ddemos/shuangdi/proxy/submit", json={
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [12/Sep/2023 17:16:29] "[35m[1mPOST /api/get_answer HTTP/1.0[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): kw.fudan.edu.cn:80
+DEBUG:urllib3.connectionpool:http://kw.fudan.edu.cn:80 "POST /ddemos/shuangdi/proxy/delete HTTP/1.1" 200 28
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): kw.fudan.edu.cn:80
+DEBUG:urllib3.connectionpool:http://kw.fudan.edu.cn:80 "POST /ddemos/shuangdi/proxy/submit HTTP/1.1" 502 341
+ERROR:Collegeapp:Exception on /api/get_answer [POST]
+Traceback (most recent call last):
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/chatgpt/LLMs-QA-system/College/Algorithm/Collegeapp.py", line 24, in api_get_answer
+    answer = get_answer(question, scene, reset=reset)
+  File "/chatgpt/LLMs-QA-system/College/Algorithm/QACollege.py", line 234, in get_answer
+    response = get_ans(prompt_with_history)
+  File "/chatgpt/LLMs-QA-system/College/Algorithm/QACollege.py", line 166, in get_ans
+    response = requests.post("http://kw.fudan.edu.cn/ddemos/shuangdi/proxy/submit", json={
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [12/Sep/2023 17:20:43] "[35m[1mPOST /api/get_answer HTTP/1.0[0m" 500 -
+INFO:Collegeapp:Debug: Attempting to send file from /chatgpt/LLMs-QA-system/College/Data/电机/智慧校园答疑/资源使用手册.pdf
+INFO:werkzeug:127.0.0.1 - - [12/Sep/2023 17:21:28] "[36mGET /api/get_file/智慧校园答疑/资源使用手册.pdf HTTP/1.0[0m" 304 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): kw.fudan.edu.cn:80
+DEBUG:urllib3.connectionpool:http://kw.fudan.edu.cn:80 "POST /ddemos/shuangdi/proxy/delete HTTP/1.1" 200 28
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): kw.fudan.edu.cn:80
+DEBUG:urllib3.connectionpool:http://kw.fudan.edu.cn:80 "POST /ddemos/shuangdi/proxy/submit HTTP/1.1" 200 2583
+INFO:werkzeug:127.0.0.1 - - [12/Sep/2023 17:22:09] "POST /api/get_answer HTTP/1.0" 200 -

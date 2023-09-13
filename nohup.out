@@ -6176,3 +6176,1490 @@ Getting answer for scene: 党纪党规
 127.0.0.1 - - [12/Sep/2023 15:51:05] "[36mGET /api/get_file/党纪党规/中国共产党章程(全文).pdf HTTP/1.0[0m" 304 -
 127.0.0.1 - - [12/Sep/2023 15:51:23] "[36mGET /api/get_file/党纪党规/中国共产党章程(全文).pdf HTTP/1.0[0m" 304 -
 127.0.0.1 - - [12/Sep/2023 15:51:33] "GET /api/get_file/党纪党规/关于新形势下党内政治生活的若干准则（全文）.pdf HTTP/1.0" 200 -
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.841 seconds.
+Prefix dict has been built successfully.
+Successfully read .pdf file: 学校章程.pdf
+Successfully read .pdf file: 上海电机学院学生违纪处分管理规定.pdf
+Successfully read .pdf file: 上海电机学院学生违纪处分管理规定.pdf
+Successfully read .pdf file: 上海电机学院学生违纪处分管理规定.pdf
+Successfully read .pdf file: 上海电机学院学生违纪处分管理规定.pdf
+Successfully read .pdf file: 上海电机学院学生违纪处分管理规定.pdf
+Successfully read .pdf file: 邮箱服务.pdf
+Successfully read .pdf file: 入馆须知.pdf
+Successfully read .pdf file: 设计与艺术学院及专业介绍.pdf
+Successfully read .pdf file: 设计与艺术学院及专业介绍.pdf
+Successfully read .pdf file: 设计与艺术学院及专业介绍.pdf
+Successfully read .pdf file: 网络服务.pdf
+Successfully read .pdf file: 读者借阅总则.pdf
+Successfully read .pdf file: 校园一卡通.pdf
+Successfully read .pdf file: 后勤服务.pdf
+Successfully read .pdf file: 统一身份认证.pdf
+Successfully read .pdf file: 图书借阅规则.pdf
+Successfully read .pdf file: 高职学院及专业介绍.pdf
+Successfully read .pdf file: 高职学院及专业介绍.pdf
+Successfully read .pdf file: 高职学院及专业介绍.pdf
+Successfully read .pdf file: 高职学院及专业介绍.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 学校简介.pdf
+Loaded data for scene: 新生适应向导
+
+Successfully read .pdf file: 上海电机学院本科教学管理工作条例.pdf
+Successfully read .pdf file: 上海电机学院本科教学管理工作条例.pdf
+Successfully read .pdf file: 上海电机学院本科教学管理工作条例.pdf
+Successfully read .pdf file: 上海电机学院党政管理及直属部门岗位编制核定办法.pdf
+Successfully read .pdf file: 上海电机学院党政管理及直属部门岗位编制核定办法.pdf
+Successfully read .pdf file: 上海电机学院岗位设置与聘任实施办法.pdf
+Successfully read .pdf file: 上海电机学院岗位设置与聘任实施办法.pdf
+Successfully read .pdf file: 上海电机学院岗位设置与聘任实施办法.pdf
+Successfully read .pdf file: 上海电机学院岗位设置与聘任实施办法.pdf
+Successfully read .pdf file: 上海电机学院岗位设置与聘任实施办法.pdf
+Successfully read .pdf file: 上海电机学院岗位设置与聘任实施办法.pdf
+Loaded data for scene: 智慧教务答疑
+
+Successfully read .pdf file: 硕士论文管理办法.pdf
+Successfully read .pdf file: 硕士论文管理办法.pdf
+Successfully read .pdf file: 硕士论文管理办法.pdf
+Successfully read .pdf file: 硕士论文管理办法.pdf
+Successfully read .pdf file: 硕士论文管理办法.pdf
+Successfully read .pdf file: 硕士研究生学位论文开题报告.pdf
+Successfully read .pdf file: 硕士研究生学位论文开题报告.pdf
+Successfully read .pdf file: 硕士研究生学位论文开题报告.pdf
+Successfully read .pdf file: 硕士研究生学位论文开题报告.pdf
+Successfully read .pdf file: 硕士研究生学位论文开题报告.pdf
+Successfully read .pdf file: 硕士研究生学位论文开题报告.pdf
+Successfully read .pdf file: 硕士研究生学位论文开题报告.pdf
+Successfully read .pdf file: 硕士研究生学位论文开题报告.pdf
+Successfully read .pdf file: 硕士研究生学位论文开题报告.pdf
+Successfully read .pdf file: 科研失信行为调查处理规则.pdf
+Successfully read .pdf file: 科研失信行为调查处理规则.pdf
+Successfully read .pdf file: 科研失信行为调查处理规则.pdf
+Successfully read .pdf file: 科研失信行为调查处理规则.pdf
+Successfully read .pdf file: 科研失信行为调查处理规则.pdf
+Successfully read .pdf file: 科研失信行为调查处理规则.pdf
+Successfully read .pdf file: 科研失信行为调查处理规则.pdf
+Successfully read .pdf file: 科研失信行为调查处理规则.pdf
+Successfully read .pdf file: 科研失信行为调查处理规则.pdf
+Successfully read .pdf file: 科研失信行为调查处理规则.pdf
+Successfully read .pdf file: 科研失信行为调查处理规则.pdf
+Loaded data for scene: 科研论文助手
+
+Successfully read .pdf file: 邮箱服务.pdf
+Successfully read .pdf file: 入馆须知.pdf
+Successfully read .pdf file: 网络服务.pdf
+Successfully read .pdf file: 读者借阅总则.pdf
+Successfully read .pdf file: 校园一卡通.pdf
+Successfully read .pdf file: 统一身份认证.pdf
+Successfully read .pdf file: 图书借阅规则.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Successfully read .pdf file: 资源使用手册.pdf
+Loaded data for scene: 智慧校园答疑
+
+Successfully read .pdf file: 上海电机学院“国家助学金”评选办法.pdf
+Successfully read .pdf file: 上海电机学院“国家助学金”评选办法.pdf
+Successfully read .pdf file: 上海电机学院学生违纪处分管理规定.pdf
+Successfully read .pdf file: 上海电机学院学生违纪处分管理规定.pdf
+Successfully read .pdf file: 上海电机学院学生违纪处分管理规定.pdf
+Successfully read .pdf file: 上海电机学院学生违纪处分管理规定.pdf
+Successfully read .pdf file: 上海电机学院学生违纪处分管理规定.pdf
+Successfully read .pdf file: 上海电机学院学生应征入伍服义务兵役国家资助.pdf
+Successfully read .pdf file: 上海电机学院学生应征入伍服义务兵役国家资助.pdf
+Successfully read .pdf file: 上海电机学院授予全日制本科毕业生学士学位的实施办法.pdf
+Successfully read .pdf file: 上海电机学院授予全日制本科毕业生学士学位的实施办法.pdf
+Successfully read .pdf file: 上海电机学院授予全日制本科毕业生学士学位的实施办法.pdf
+Successfully read .pdf file: 上海电机学院上海市奖学金评选办法（2020年修订）.pdf
+Successfully read .pdf file: 上海电机学院上海市奖学金评选办法（2020年修订）.pdf
+Successfully read .pdf file: 上海电机学院上海市奖学金评选办法（2020年修订）.pdf
+Successfully read .pdf file: 上海电机学院上海市奖学金评选办法（2020年修订）.pdf
+Successfully read .pdf file: 上海电机学院研究生优秀成果奖学金评定办法（试行）.pdf
+Successfully read .pdf file: 上海电机学院研究生优秀成果奖学金评定办法（试行）.pdf
+Loaded data for scene: 智慧学工向导
+
+Successfully read .pdf file: 上海电机学院专业硕士培育项目管理暂行办法.pdf
+Successfully read .pdf file: 上海电机学院专业硕士培育项目管理暂行办法.pdf
+Loaded data for scene: 智慧学习答疑
+
+Successfully read .pdf file: 设计与艺术学院及专业介绍.pdf
+Successfully read .pdf file: 设计与艺术学院及专业介绍.pdf
+Successfully read .pdf file: 设计与艺术学院及专业介绍.pdf
+Successfully read .pdf file: 高职学院及专业介绍.pdf
+Successfully read .pdf file: 高职学院及专业介绍.pdf
+Successfully read .pdf file: 高职学院及专业介绍.pdf
+Successfully read .pdf file: 高职学院及专业介绍.pdf
+Loaded data for scene: 智慧招生咨询
+
+ * Serving Flask app '/chatgpt/LLMs-QA-system/College/Algorithm/Collegeapp.py'
+ * Debug mode: off
+[nltk_data] Error loading punkt: <urlopen error EOF occurred in
+[nltk_data]     violation of protocol (_ssl.c:1131)>
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.811 seconds.
+Prefix dict has been built successfully.
+Loaded data for scene: 社区服务
+
+Loaded data for scene: 社区发展
+
+Loaded data for scene: 社区管理
+
+Loaded data for scene: 社区平安
+
+Loaded data for scene: 社区自治
+
+ * Serving Flask app '/chatgpt/LLMs-QA-system/streettown/Algorithm/QAstreetapp.py'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5023
+ * Running on http://10.28.92.73:5023
+[33mPress CTRL+C to quit[0m
+101.132.161.92 - - [12/Sep/2023 16:35:17] "POST /api/get_answer HTTP/1.1" 200 -
+101.132.161.92 - - [12/Sep/2023 16:35:17] "GET /api/get_file/社区管理/上海市行政执法证管理办法.pdf HTTP/1.1" 200 -
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 1.039 seconds.
+Prefix dict has been built successfully.
+Loaded data for scene: 学校全景解读
+
+Loaded data for scene: 招生专业问答
+
+Loaded data for scene: 智慧校园答疑
+
+Loaded data for scene: 智慧学习答疑
+
+ * Serving Flask app '/chatgpt/LLMs-QA-system/Oldcollege/Algorithm/QAOldcollegeapp.py'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5024
+ * Running on http://10.28.92.73:5024
+[33mPress CTRL+C to quit[0m
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.826 seconds.
+Prefix dict has been built successfully.
+Successfully read .pdf file: 中国电信股份有限公司上海分公司简介(1).pdf
+Successfully read .pdf file: 中国电信股份有限公司上海分公司简介(1).pdf
+Successfully read .pdf file: 中国电信股份有限公司上海分公司简介(1).pdf
+Successfully read .pdf file: 中国电信股份有限公司上海分公司简介(1).pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 客户服务管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Successfully read .pdf file: 合同管理办法.pdf
+Loaded data for scene: 新员工适应向导
+
+Successfully read .pdf file: 2021年年度报告摘要.pdf
+Successfully read .pdf file: 2021年年度报告摘要.pdf
+Successfully read .pdf file: 2021年年度报告摘要.pdf
+Successfully read .pdf file: 2021年年度报告摘要.pdf
+Successfully read .pdf file: 2021年年度报告摘要.pdf
+Successfully read .pdf file: 2021年年度报告摘要.pdf
+Successfully read .pdf file: 2021年年度报告摘要.pdf
+Successfully read .pdf file: 2021年年度报告摘要.pdf
+Successfully read .pdf file: 在线培训-业务管理办法ISO-6-29.pdf
+Successfully read .pdf file: 在线培训-业务管理办法ISO-6-29.pdf
+Successfully read .pdf file: 在线培训-业务管理办法ISO-6-29.pdf
+Successfully read .pdf file: 在线培训-业务管理办法ISO-6-29.pdf
+Successfully read .pdf file: 在线培训-业务管理办法ISO-6-29.pdf
+Successfully read .pdf file: 在线培训-业务管理办法ISO-6-29.pdf
+Successfully read .pdf file: 2022年年度报告摘要.pdf
+Successfully read .pdf file: 2022年年度报告摘要.pdf
+Successfully read .pdf file: 2022年年度报告摘要.pdf
+Successfully read .pdf file: 2022年年度报告摘要.pdf
+Successfully read .pdf file: 2022年年度报告摘要.pdf
+Successfully read .pdf file: 2022年年度报告摘要.pdf
+Successfully read .pdf file: 2022年年度报告摘要.pdf
+Successfully read .pdf file: 2022年年度报告摘要.pdf
+Successfully read .pdf file: 2022年年度报告摘要.pdf
+Successfully read .pdf file: 2022年年度报告摘要.pdf
+Successfully read .pdf file: 关于2022年年度报告的更正补充公告.pdf
+Successfully read .pdf file: 关于2022年年度报告的更正补充公告.pdf
+Successfully read .pdf file: 关于2022年年度报告的更正补充公告.pdf
+Successfully read .pdf file: 关于2022年年度报告的更正补充公告.pdf
+Loaded data for scene: 岗位知识支持助手
+
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Successfully read .pdf file: 上海耀皮玻璃集团eFile系统-用户操作手册20190523.pdf
+Loaded data for scene: IT系统使用向导
+
+Successfully read .pdf file: 钢化玻璃平整度及影像变形的检测与评价方法.pdf
+Successfully read .pdf file: 钢化玻璃平整度及影像变形的检测与评价方法.pdf
+Successfully read .pdf file: 钢化玻璃平整度及影像变形的检测与评价方法.pdf
+Successfully read .pdf file: 建筑用防火玻璃的种类与发展.pdf
+Successfully read .pdf file: 建筑用防火玻璃的种类与发展.pdf
+Successfully read .pdf file: 建筑用防火玻璃的种类与发展.pdf
+Successfully read .pdf file: 单片防火玻璃耐火机理分析之：玻璃热炸裂.pdf
+Successfully read .pdf file: 单片防火玻璃耐火机理分析之：玻璃热炸裂.pdf
+Successfully read .pdf file: 单片防火玻璃耐火机理分析之：玻璃热炸裂.pdf
+Successfully read .pdf file: 单片防火玻璃耐火机理分析之：玻璃热炸裂.pdf
+Successfully read .pdf file: 单片防火玻璃耐火机理分析之：玻璃热炸裂.pdf
+Successfully read .pdf file: 单片防火玻璃耐火机理分析之：玻璃热炸裂.pdf
+Successfully read .pdf file: 单片防火玻璃耐火机理分析之：玻璃热炸裂.pdf
+Successfully read .pdf file: 单片防火玻璃耐火机理分析之：玻璃热炸裂.pdf
+Successfully read .pdf file: 全玻璃幕墙技术要点详解.pdf
+Successfully read .pdf file: 全玻璃幕墙技术要点详解.pdf
+Successfully read .pdf file: 全玻璃幕墙技术要点详解.pdf
+Successfully read .pdf file: 夹层玻璃强制对流预压加热特性浅析.pdf
+Successfully read .pdf file: 夹层玻璃强制对流预压加热特性浅析.pdf
+Successfully read .pdf file: 夹层玻璃强制对流预压加热特性浅析.pdf
+Loaded data for scene: 生产设备&工艺知识库
+
+Successfully read .pdf file: 江苏：制造业“智改数转”飒沓前行.pdf
+Successfully read .pdf file: 江苏：制造业“智改数转”飒沓前行.pdf
+Successfully read .pdf file: 江苏：制造业“智改数转”飒沓前行.pdf
+Successfully read .pdf file: 江苏：制造业“智改数转”飒沓前行.pdf
+Successfully read .pdf file: 江苏：制造业“智改数转”飒沓前行.pdf
+Successfully read .pdf file: 江苏：制造业“智改数转”飒沓前行.pdf
+Successfully read .pdf file: 江苏：制造业“智改数转”飒沓前行.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国汽车行业数字化转型解决方案白皮书.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Created a chunk of size 415, which is longer than the specified 200
+Created a chunk of size 690, which is longer than the specified 200
+Created a chunk of size 246, which is longer than the specified 200
+Created a chunk of size 316, which is longer than the specified 200
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 艾瑞咨询：2023年中国工业互联网平台行业研究报告.pdf
+Successfully read .pdf file: 玻璃制品前景及现状分析.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: 艾瑞咨询：光伏产业观察：探索光伏利润变化及未来发展空间.pdf
+Successfully read .pdf file: CERFBM2023为全球建材行业碳减排赋能——2023建材行业碳减排国际论坛侧记.pdf
+Successfully read .pdf file: CERFBM2023为全球建材行业碳减排赋能——2023建材行业碳减排国际论坛侧记.pdf
+Successfully read .pdf file: CERFBM2023为全球建材行业碳减排赋能——2023建材行业碳减排国际论坛侧记.pdf
+Successfully read .pdf file: CERFBM2023为全球建材行业碳减排赋能——2023建材行业碳减排国际论坛侧记.pdf
+Successfully read .pdf file: CERFBM2023为全球建材行业碳减排赋能——2023建材行业碳减排国际论坛侧记.pdf
+Loaded data for scene: 行业&领域知识仓库
+
+ * Serving Flask app '/chatgpt/LLMs-QA-system/Company/Algorithm/app.py'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5021
+ * Running on http://10.28.92.73:5021
+[33mPress CTRL+C to quit[0m
+[nltk_data] Error loading punkt: <urlopen error [Errno 104] Connection
+[nltk_data]     reset by peer>
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.815 seconds.
+Prefix dict has been built successfully.
+Loaded data for scene: 智慧党建
+
+Loaded data for scene: 党员教育
+
+Loaded data for scene: 党纪党规
+
+Loaded data for scene: 红色历程
+
+ * Serving Flask app '/chatgpt/LLMs-QA-system/Dangwu/Algorithm/QAdangwuapp.py'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5022
+ * Running on http://10.28.92.73:5022
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [12/Sep/2023 17:18:58] "POST /api/get_answer HTTP/1.0" 200 -
+Getting answer for scene: 社区管理
+发送的查询: 
+参考以下与问题相关的3段文本:
+上 海 市 人 民 政 府 规 章
+ 
+ 
+上海市行政执法证管理办法
+(2023年1月12日上海市人民政府令第74号公布  自2023年
+4月1日起施行)
+ 
+第一条（目的）
+为了加强本市行政执法证件的管理，规范行政执法行为，
+促进依法行政，根据有关法律、法规的规定，结合本市实际，
+制定本办法。
+第二条（适用范围）
+本市行政区域内的行政执法证件（以下简称“执法证”）
+的申领、核发、使用及相关管理活动，适用本办法。
+第三条（执法证的含义）
+本办法所称的执法证，是指以市人民政府名义颁发，表明
+行政执法人员身份，具有实施行政执法活动资格的证件。
+第四条（执法证的内容）
+执法证印制以下内容：
+ 第三条（定义）
+本办法所称的行政执法监督，是指市和区人民政府对其工
+作部门或者派出机关和派出机构、上级人民政府对下级人民政
+府、市和区人民政府工作部门对本系统行政执法工作的督促指总  则 第1章
+  
+上 海 市 人 民 政 府 发 布      
+ 
+     上 海 市 人 民 政 府 规 章
+导、监督管理。
+本办法所称的行政执法工作，是指各级人民政府、市和区
+人民政府工作部门街道办事处依法实施行政执法行为贯彻
+ 上 海 市 人 民 政 府 规 章
+ 
+ 
+上海市行政处罚听证程序规定
+(2023年1月19日上海市人民政府令第77号公布  自2023年
+4月1日起施行)
+ 
+第一章  总  则
+ 
+第一条（目的和依据）
+    为了规范行政处罚听证程序，保护公民、法人或者其他组织
+的合法权益，根据《中华人民共和国行政处罚法》的规定，结
+合本市实际，制定本规定。
+第二条（适用范围）
+    本市行政机关和法律、法规授权的具有管理公共事务职能的
+组织（以下统称“行政机关”）开展行政处罚听证活动，适用
+本规定。
+第三条（听证范围）
+行政机关拟作出下列行政处罚决定，应当告知当事人有要
+，然后回答以下问题：上海市管理行政执法证的目的是什么？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '上海市管理行政执法证的目的是为了加强本市行政执法证件的管理，规范行政执法行为，促进依法行政。'}
+Getting answer for scene: 社区发展
+发送的查询: 
+参考以下与问题相关的3段文本:
+第三十条　人力资源社会保障、医保等部门应按照职责分工,协助税务机关做好各项社会保险费征收管理等工作,探索推进社会保险费业务经办和申报缴纳流程联动办理,大力推进“一网通办”.教育、民政等部门应协助税务机关持续做好相关缴费群体的代收代缴、宣传辅导、提示提醒等工作.第三十一条　人力资源社会保障、规划资源、水务、人防、残联等部门应协助税务机关开展非税收入征缴管理工作,对划转税务征收的非税收入项目,由相关执收主管部门负责协助税务机关开展征缴管理工作.税务机关应向财政、规划资源、水务、人防、残联等部门及时反馈相关非税收入征收明细信息.第三十二条　因涉税财物价格不明、价格有争议或其他原因需要进行价格认定的,税务机关可向价格主管部门所属的价格认定机构提出价格认定协助申请,价格认定机构应依法进行价格认定.第三十三条　办理不动产权属登记、耕地建设批准手续时,登记机构应依照法律、法规规定查验与该不动产、耕地等相关的完税凭证、减免税凭证或有关信息;经查验已经履行申报缴纳义务的,依法为其办理相关业务.第三十四条　个人转让股权办理变更登记的,市场主体登记机关应查验与该股权交易相关的个人所得税完税凭证;经查验已经履行申报缴纳义务的,市场主体登记机关应依法为其办理股权—８—
+ 变更登记.第三十五条　财政部门应依法加强对纳税人、缴费人会计凭证、会计账簿、财务会计报告及其他会计资料的监督,督促纳税人、缴费人根据实际发生的经济业务事项,使用合法、有效的凭证记账和核算;对监督检查中发现的涉税涉费违法行为,应及时通知税务机关.第三十六条　税收收入预算的编制和调整,应与本行政区域的税源状况相适应.税务机关应根据经济发展实际和税源状况,科学预测税收目标,及时向同级财政部门反映重大税收增减变化等因素,按照财政部门的要求,提供税费收入征收预测情况.财政部门编制和调整税收收入预算,应征求同级税务机关的意见.第三十七条　税务机关依法查询纳税人的金融账户信息,实施税收保全和税收强制执行措施,依法查询缴纳社会保险费的用人单位的金融账户信息,实施相关强制执行措施,商业银行和其他金融机构应依法予以协助.第三十八条　人民法院执行生效裁判文书、办理强制清算及破产案件时,税务机关应及时征收相关税费.第三十九条　公安、网信等部门应按照各自职责,依法及时处理寻衅滋事、散布谣言等严重影响税费管理秩序的行为.对税务机关移送的逃税、骗税、抗税、虚开发票等涉嫌犯罪案件,公安机关应依法办理,并将办理情况及时反馈税务机关.—９—
+ 第五章　监督保障第四十条　各区人民政府应根据本办法建立健全各区税费征收保障制度,完善税费征收保障评价机制,协调解决税费征收保障工作中的重大问题,督促有关部门和单位履行税费征收保障工作职责.第四十一条　税务机关应会同有关部门和单位,加强税费征收管理行政执法工作,创新行政执法方式,严格推进规范公正文明执法,推动建立跨部门、跨区域行政执法协作机制和行政执法与刑事司法衔接机制,及时查处涉税涉费违法行为.第四十二条　税务机关应会同有关部门和单位,协调推进财政税收政策出台和落实,支持和规范新产业、新业态、新模式健康发展,促进依法纳税和公平竞争.第四十三条　税务机关和有关部门、单位应主动接受企业、事业单位、社会组织、个人和新闻媒体对税费征收保障工作的监督.第四十四条　税务机关应健全涉税涉费争议解决机制,畅通涉税涉费诉求收集、响应和反馈渠道,运用和解、调解等争议解决方式,依法及时化解涉税涉费争议.第四十五条　税务机关应加大政府信息公开力度,完善投诉举报制度,公开投诉举报方式.第四十六条　税务机关应建立健全纳税人、缴费人纳税缴费信用信息归集和发布工作机制,依法将相关信息向社会公开,并按—０１—
+，然后回答以下问题：sdfsdf
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '第三十五条\u3000税收收入预算的编制和调整,应与本行政区域的税源状况相适应。税务机关应根据经济发展实际和税源状况,科学预测税收目标,及时向同级财政部门反映重大税收增减变化等因素,按照财政部门的要求,提供税费收入征收预测情况。'}
+127.0.0.1 - - [12/Sep/2023 17:20:15] "POST /api/get_answer HTTP/1.0" 200 -
+Getting answer for scene: 智慧招生咨询
+发送的查询: 
+参考以下与问题相关的3段文本:
+高职学院以培养企业生产、服务和管理第一线的技术技能型人才为目标。学院拥有专任教师 40人，师资队伍中高级职
+称比例占 50%以上，具有硕士以上学位或学历的占教师总数的 63%、“双师型”教师占 40%。学院的特色是校企合作培养具
+有工匠精神的技术技能型人才，注重学生实际应用能力的培养，采用高技能人才培养模式，学生在取得毕业证书的同时，
+取得与专业相适应的企业认可的中高级职业资格证书，高职学生在毕业时取得“双证”率达 90%以上。学生的就业率近十年
+始终保持 98%以上，培养的学生受到许多大型企业的青睐。
+ 授予学位：工学学士学位
+专业简介工业设计专业于 2007年获批， 2008年开始招生，是学校特色专业之一。工业设计专业贯彻学校“技术立校，应用为本”的办学方略，紧密围绕国家智能制造发展战略和上海创意
+产业的人才需求，依托智能制造行业优势，致力于培养以设计实践能力为主线，面向智能产品、机电产品、健康设计领域的高等技术应用型设计人才，能基于用户研究，整合科技、艺
+ 公司、上海风语筑文化科技股份有限公司等企业建立了紧密的校企合作关系，在双师型队伍建设、人才培养方案修订、课程建设、教材编写、实践教学环节开发、实习基地建设、项目
+研发等方面开展校企合作。毕业生年平均就业率在 96%以上，就业专业吻合度在 88%以上，专业学生毕业后主要在数字媒体相关企业从事设计和管理工作。2.产品设计（上海市一流本科专业）开设时间：2013年授予学位：艺术学学士学位
+专业简介专业于2012年获批， 2013年开始招生，是学校特色专业之一。产品设计专业贯彻学校“技术立校，应用为本”的办学方略，紧密围绕上海设计之都的发展战略和创意产业的人才
+，然后回答以下问题：设计学院的专业课程是什么？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+Getting answer for scene: 智慧招生咨询
+发送的查询: 
+参考以下与问题相关的3段文本:
+高职学院以培养企业生产、服务和管理第一线的技术技能型人才为目标。学院拥有专任教师 40人，师资队伍中高级职
+称比例占 50%以上，具有硕士以上学位或学历的占教师总数的 63%、“双师型”教师占 40%。学院的特色是校企合作培养具
+有工匠精神的技术技能型人才，注重学生实际应用能力的培养，采用高技能人才培养模式，学生在取得毕业证书的同时，
+取得与专业相适应的企业认可的中高级职业资格证书，高职学生在毕业时取得“双证”率达 90%以上。学生的就业率近十年
+始终保持 98%以上，培养的学生受到许多大型企业的青睐。
+ 授予学位：工学学士学位
+专业简介工业设计专业于 2007年获批， 2008年开始招生，是学校特色专业之一。工业设计专业贯彻学校“技术立校，应用为本”的办学方略，紧密围绕国家智能制造发展战略和上海创意
+产业的人才需求，依托智能制造行业优势，致力于培养以设计实践能力为主线，面向智能产品、机电产品、健康设计领域的高等技术应用型设计人才，能基于用户研究，整合科技、艺
+ 公司、上海风语筑文化科技股份有限公司等企业建立了紧密的校企合作关系，在双师型队伍建设、人才培养方案修订、课程建设、教材编写、实践教学环节开发、实习基地建设、项目
+研发等方面开展校企合作。毕业生年平均就业率在 96%以上，就业专业吻合度在 88%以上，专业学生毕业后主要在数字媒体相关企业从事设计和管理工作。2.产品设计（上海市一流本科专业）开设时间：2013年授予学位：艺术学学士学位
+专业简介专业于2012年获批， 2013年开始招生，是学校特色专业之一。产品设计专业贯彻学校“技术立校，应用为本”的办学方略，紧密围绕上海设计之都的发展战略和创意产业的人才
+，然后回答以下问题：设计学院的专业课程是什么？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+Getting answer for scene: 科研论文助手
+发送的查询: 
+参考以下与问题相关的3段文本:
+开题报告填写事项
+一、填写必须实事求是，字迹要端正、清楚。填写内容字体为：
+楷体小四号，行距为1.25倍；签字必须用蓝、黑墨水笔，如篇幅不
+够可另附纸。
+二、本报告的第一至第六部分由研究生本人填写（字数要求根据
+培养方案规定），其余部分由导师、开题报告考核小组、学院负责人
+填写。
+三、开题考核由二级学院统一组织，对开题答辩不通过的要在1
+个月再次进行开题，重新开题答辩通过后，正式进入论文撰写阶段。
+ 用于论文工作的时间一般不少于一年。
+第三章选题及开题
+第六条研究生应在导师指导下，查阅文献资料，了解学科现状和动向，尽早确定课
+题方向，完成论文选题。选题应结合专业研究方向，在理论或应用上具有一定意义，
+内容充实，优先选用应用性较强的课题，力争能解决较为重要的工程实际问题。
+第七条研究生一般应在第三学期末做开题报告。开题报告要求与实施程序参照《上
+海电机学院研究生学位论文开题工作管理暂行办法》执行。
+第八条未进行开题报告或开题报告未通过的研究生不能进入下一阶段的中期答辩
+工作。
+ 八、学位论文开题报告评议表
+报告时间及地点：年月日时， 室
+考核组对开题报告的意见（包括选题意义、设计方案、关键技术、工作量、工作
+进度安排、参考文献等扼要记录）：
+开题考核组成员
+姓名 职称 单位 签字
+组长
+组员
+组员
+组员
+组员
+组员
+秘书
+学院审核意见：
+负责人：
+日期： 年月日
+，然后回答以下问题：硕士论文如何开题？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.96it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.96it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.39it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.38it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.05it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.04it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.02it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.02it/s]127.0.0.1 - - [12/Sep/2023 17:23:39] "POST /api/get_answer HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 17:25:09] "GET /api/get_file/社区管理/上海市行政处罚听证程序规定.pdf HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 17:26:34] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [12/Sep/2023 17:27:24] "POST /api/get_answer HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 17:27:36] "GET /api/get_file/社区发展/社区新型基础设施建设行动计划.pdf HTTP/1.0" 200 -
+Getting answer for scene: 社区管理
+发送的查询: 
+参考以下与问题相关的3段文本:
+上 海 市 人 民 政 府 规 章
+ 
+ 
+上海市行政处罚听证程序规定
+(2023年1月19日上海市人民政府令第77号公布  自2023年
+4月1日起施行)
+ 
+第一章  总  则
+ 
+第一条（目的和依据）
+    为了规范行政处罚听证程序，保护公民、法人或者其他组织
+的合法权益，根据《中华人民共和国行政处罚法》的规定，结
+合本市实际，制定本规定。
+第二条（适用范围）
+    本市行政机关和法律、法规授权的具有管理公共事务职能的
+组织（以下统称“行政机关”）开展行政处罚听证活动，适用
+本规定。
+第三条（听证范围）
+行政机关拟作出下列行政处罚决定，应当告知当事人有要
+ 的其他机构负责。
+    依法受委托组织拟作出适用听证程序的行政处罚的，由委托
+的行政机关负责组织听证。
+    行政机关不得委托其他机关或者组织负责组织听证。
+第六条（听证人员的范围）
+  
+上 海 市 人 民 政 府 发 布      
+ 
+     上 海 市 人 民 政 府 规 章
+    听证人员包括听证主持人、听证员和书记员。
+第七条（听证参与人的范围）
+    听证参与人包括当事人及其代理人、案件调查人员、翻译人
+员、证人、鉴定人、勘验人以及其他有关人员。
+    前款所称的当事人，是指被事先告知将受到适用听证程序的
+行政处罚的公民、法人或者其他组织；案件调查人员，是指行
+ （五）法律、法规、规章规定的其他情形。
+除前款范围外，行政机关认为需要听证的其他情形，也应
+当告知当事人有要求举行听证的权利。
+第四条（较大数额标准）
+    本规定所称的较大数额（或者较大价值），对个人是指5000
+元以上（或者等值物品价值）；对法人或者其他组织是指5万元
+以上（或者等值物品价值）。上海市人民政府可以根据经济社
+会发展的情况，对前述较大数额（或者较大价值）标准进行调
+整并予以公布。
+ 
+第二章  听证组织机关、听证人员和听证参与人
+ 
+第五条（听证组织机关）
+    行政机关拟作出适用听证程序的行政处罚的，由该行政机关
+负责组织听证。具体实施工作，由其法制机构或者该机关指定
+，然后回答以下问题：上海市行政处罚听证程序的目的是什么？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '上海市行政处罚听证程序的目的是为了规范行政处罚听证程序，保护公民、法人或者其他组织的合法权益，根据《中华人民共和国行政处罚法》的规定，结合本市实际，制定本规定。'}
+Getting answer for scene: 社区发展
+发送的查询: 
+参考以下与问题相关的3段文本:
+理局、市邮政管理局)开展可回收物服务点、中转站改造提升,推进全市住宅小区３０００台智能回收箱规范管理.鼓励市场主体探索生活垃圾智能识别、分类清运,创新商业模式.(责任单位:市绿化市容局)２．加强社区智能安防.２０２０年前,全面完成以社区人员、车辆出入口“微卡口”(人脸抓拍、车辆抓拍)感知端建设为重点的社区智能安防建设,覆盖全市１６个区１０９８７个封闭式住宅小区、２８８６个开放式住宅区域(含非封闭式小区、旧式里弄、农村民宅).(责任单位:市公安局、市房屋管理局)３．推广社区智慧停车.３年内,建成市级公共停车信息平台,接入社区周边公共停车场(库)和道路停车场的动静态数据,方便社区居民停车,缓解停车压力.(责任单位:市交通委、市道路运输局、市经济信息化委、市公安局、各区政府)４．推动社区智慧能源设施建设.构建智能有序充电管理体系,２０２０—２０２２年,每年建设一批充电桩示范小区,加快实现社区充电安全监管和智能有序充电.(责任单位:市发展改革委、市经济信息化委、市房屋管理局)推进住宅小区非机动车车库(棚)智能改造.(责任单位:各区政府)５．实施社区智慧早餐工程.合理规划、整体布局社区周边新零售连锁便利门店,依托布点网订柜(店)取、智能取餐等项目,助推社区早餐门店线上线下融合发展,创新“早餐在线经济”新模式,实现数字化赋能社区早餐工程.(责任单位:市商务委)打造智慧—４—
+ 理水平.(责任单位:市住房城乡建设管理委、市房屋管理局、市规划资源局、市商务委、市邮政管理局)结合新建商品房小区投入使用,强化社区智能安防标准规范执行.(责任单位:市公安局、市房屋管理局)出台上海市商业体系发展规划上海市商贸物流基础设施体系规划导则,完善社区商贸基础设施智能化改造规划.(责任单位:市商务委)更新新型城域物联专网建设导则,优化５G和物联终端布局规划.更新上海市智慧社区建设指南,加强智慧社区建设指导.(责任单位:市经济信息化委)２．链接供需资源.建立健全智慧社区建设供需对接机制.通过居村“自下而上”意见征询和需求提取机制,梳理形成社区智能设施需求清单和项目清单.根据社区需求、企业运营规模、征信情况等,制定智慧社区建设指导目录和优质供应商目录.通过项目购买、补贴、奖励等方式,提升项目落地效率.(责任单位:市经济信息化委、各区政府)３．鼓励贴息支持.发挥贴息政策作用,鼓励合作银行加大对社区“新基建”优惠利率贷款力度,对符合条件的社区“新基建”项目,按有关规定进行贴息支持.(责任单位:市发展改革委、市经济信息化委、市财政局、浦东新区政府、临港新片区管委会、上海科创办、虹桥商务区管委会)三、保障措施(一)加强组织领导.在现行市新型基础设施建设推进工作机制框架下,依托各工作组及牵头单位,建立由相关职能部门参加的—８—
+ 推进工作机制,按领域推进社区新型基础设施建设各项工作,压实主体责任,明晰工作要求.在此基础上,成立由市民政局、市经济信息化委、市发展改革委、市商务委、市房屋管理局等部门组成的工作专班,负责日常协调.各区相应建立本区域相关工作机制,加强组织保障.(责任单位:各相关部门、各区政府)(二)强化属地统筹.推动各区根据市级规划部署,做实条块联席会议和基层约请制度,加强条块协商和业务指导,推动部门聚焦基层难点问题,清单式解决问题.落实社区规划建议权,结合在地资源禀赋和社区类型、居民结构,因地制宜开展智慧社区建设,确保项目精准落地.(责任单位:各区政府、各相关部门)(三)开展示范工程.聚焦社区治理与便民服务等重点应用场景,鼓励各区选取信息化基础条件好、创新方向明确、具有复制推广价值或区域特色的项目,开展“区、街镇、居村”三级示范工程,推动各区形成一批能显著提升社区服务或社会治理效能的示范项目,提炼一批规范准入、维护、退出、监督等各环节的发展长效机制,总结一套“政企合作、市场投入为主”的建设运营模式.在此基础上,逐步扩大示范工程的区域覆盖和项目覆盖,以规模化应用推动本市社区“新基建”建设.对示范工程中实施效果好、群众满意度高的项目,加大宣传推广力度,优先落实贴息等政策.(责任单位:各相关部门、各区政府)(四)推动社区参与.建立健全参与式社区规划制度,积极发挥社区自治共治、民主协商机制作用,将智慧社区建设纳入社区协—９—
+，然后回答以下问题：社区发展
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '1. 什么是社区新型基础设施？<br/>2. 社区新型基础设施包括哪些方面？<br/>3. 社区新型基础设施建设的主要目标是什么？<br/>4. 社区新型基础设施建设有哪些保障措施？<br/>5. 社区新型基础设施建设的意义是什么？'}
+Getting answer for scene: 社区发展
+发送的查询: 127.0.0.1 - - [12/Sep/2023 17:37:12] "POST /api/get_answer HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 17:37:22] "GET /api/get_file/社区发展/社区新型基础设施建设行动计划.pdf HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 17:43:08] "POST /api/get_answer HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 17:43:18] "GET /api/get_file/社区服务/上海市公墓管理办法.pdf HTTP/1.0" 200 -
+
+参考以下与问题相关的3段文本:
+社区新型基础设施建设行动计划　　为深入贯彻上海市推进新型基础设施建设行动方案(２０２０—２０２２年)(沪府２０２０２７号),更高质量提升社区治理服务效能,更高水平满足居民群众美好生活向往,制定本行动计划.一、行动目标到２０２２年,５G、人工智能、物联网、大数据等新技术全面融入社区生活,本市社区新型基础设施建设不断夯实,运营服务体系日益完善,智慧社区支持体系更加优化,社区治理更加智慧、社区生活更有品质.———建成全市统一的智慧社区数字底座.夯实“一网统管”第五级居村应用平台建设,全面加快新一代信息基础设施深度覆盖,推进社区治理数据整合归集.———构建高效智能的智慧终端设施网络.聚焦社区生活重点领域和关键环节,推进社区智能安防、智能末端配送设施、智慧康养等终端设施合理布设.———形成规范有序的智能设施管理机制.社区新型基础设施建设和运营配套制度更加优化,社区准入、退出流程更加规范,管理维护责任更加明晰,社区协商充分开展.———建成环境友好的智能建设支撑体系.加大政策供给,链接供需资源,加强用房用地和接口保障,降低市场主体进入社区成—２—
+ 上海市人民政府办公厅文件沪府办２０２０６５号上海市人民政府办公厅关于印发社区新型基础设施建设行动计划的通知各区人民政府,市政府各委、办、局:社区新型基础设施建设行动计划已经市政府同意,现印发给你们,请认真按照执行.２０２０年１２月３日(此件公开发布)—１—
+ 本,形成企业、社会组织共同参与的良性循环.二、主要任务(一)数字底座建设行动１．夯实信息基础设施建设.加快实现５G、千兆光网、新型城域物联专网等在社区的深度覆盖,夯实新一代信息基础设施底座.(责任单位:市经济信息化委、各区政府)２．加强数据汇集机制建设.依托市大数据资源平台,建立健全面向社区治理的主题数据库,推动数据向居村按需共享,为居村精细化治理和精准化服务提供支撑.(责任单位:市民政局、市大数据中心)３．推进“社区云”平台建设.做实“一网统管”架构下的居村应用平台“社区云”,深化管理、服务、互动等功能,整合部署在居村层面的信息系统,健全基层信息数据采集、比对、反馈、使用机制.(责任单位:市民政局、市经济信息化委、市公安局、市大数据中心、各区政府)依托市城运中心和城运相关系统,及时反馈、联动处置居村发现的问题,为居村治理提供支撑.(责任单位:市城运中心、市住房城乡建设管理委、市民政局、各区政府)(二)应用场景拓展行动１．完善社区智能末端配送.合理规划布设社区智慧零售终端、智能取物柜等智能末端配送设施,３年内,在全市社区、商务楼宇、机关、学校、医院等场所新增智能快件箱１．５万组以上.(责任单位:市商务委、市规划资源局、市住房城乡建设管理委、市房屋管—３—
+，然后回答以下问题：社区新型基础设施建设行动的目标是啥？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '社区新型基础设施建设行动的目标是到2022年，5G、人工智能、物联网、大数据等新技术全面融入社区生活，使本市社区新型基础设施建设不断夯实，运营服务体系日益完善，智慧社区支持体系更加优化，社区治理更加智慧、社区生活更有品质。'}
+Getting answer for scene: 社区服务
+发送的查询: 
+参考以下与问题相关的3段文本:
+第八条　(申请资格)市和区殡葬事业单位可以申请建立经营性公墓.农村地区乡镇人民政府、街道办事处可以申请建立公益性公墓或者公益性埋葬地.第九条　(申请条件)申请建立公墓的,应当具备下列条件:(一)墓地选址、用地面积等必须符合各级国土空间规划.(二)墓地必须距离风景名胜区二千米以外,距离铁路五十米以外,距离公路和干河三十米以外.(三)墓地应使用高亢地、低洼地、盐碱地等劣地,不得占用蔬菜地.(四)经营性公墓、公益性公墓必须有行人、车辆集散地和车辆进出分道.第十条　(申请手续和提交材料)申请建立公墓的单位,应当向墓址所在地的区民政管理部门提出申请,并提交下列书面材料:(一)申请人的资格证明;(二)申请书;(三)区以上政府有关用地的审批意见;(四)区以上政府规划资源部门的审核意见;(五)可行性报告;—７—
+ 上海市人民政府关于修改上海市公墓管理办法的决定(２０２２年２月２４日上海市人民政府令第６７号公布自２０２２年４月１５日起施行)　　市人民政府决定,对上海市公墓管理办法作如下修改:一、删去第四条第一款中的“其所属的上海市殡葬管理处具体负责本市公墓的管理工作”.二、删去第八条第一款中的“乡政府可以申请建立公益性埋葬地”.将第八条第二款修改为:农村地区乡镇人民政府、街道办事处可以申请建立公益性公墓或者公益性埋葬地.三、将第九条第(一)项修改为“墓地选址、用地面积等必须符合各级国土空间规划”.删去第九条第(四)项.将第九条第(五)项改为第(四)项,并修改为“经营性公墓、公益性公墓必须有行人、车辆集散地和车辆进出分道”.四、将第十一条修改为:区民政管理部门应当自接到建立公墓申请之日起二十日内作—２—
+ 本办法所称的公墓,包括经营性公墓、公益性公墓和公益性埋葬地.经营性公墓是为公民有偿提供骨灰安葬的墓地.公益性公墓是为当地村民提供骨灰安葬的墓地.公益性埋葬地是为当地村民提供的骨灰深埋地.本办法所称的公墓业务代办处,是指代办公墓墓穴出售业务的服务机构.第四条　(主管部门)上海市民政管理部门(以下简称市民政管理部门)是本市公墓管理的主管机关.区民政管理部门负责本区域内公墓的管理工作.第五条　(部门职责)各级人民政府有关职能部门应当按各自的职责,做好公墓管理工作.第六条　(建墓原则和总量控制)公墓的建立应贯彻节约用地和移风易俗的原则.根据城市建设规划的要求,本市对建立公墓实行总量控制.第二章　申请与审批第七条　(禁止擅自建墓)本市对建立公墓实行许可制度.未经批准,不得建立公墓.禁止擅自建墓(坟)树碑.—６—
+，然后回答以下问题：申请建立公墓有什么条件？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '申请建立公墓需要满足以下条件：<br/>1. 墓地选址、用地面积等必须符合各级国土空间规划；<br/>2. 墓地必须距离风景名胜区2千米以外，距离铁路50米以外，距离公路和干河30米以外；<br/>3. 墓地应使用高亢地、低洼地、盐碱地等劣地，不得占用蔬菜地；<br/>4. 经营性公墓、公益性公墓必须有行人、车辆集散地和车辆进出分道。'}
+127.0.0.1 - - [12/Sep/2023 17:44:15] "POST /api/get_answer HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 17:44:27] "[36mGET /api/get_file/社区管理/上海市行政处罚听证程序规定.pdf HTTP/1.0[0m" 304 -
+127.0.0.1 - - [12/Sep/2023 17:49:18] "POST /api/get_answer HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 17:49:27] "GET /api/get_file/社区平安/上海市气象灾害防御办法.pdf HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 17:49:36] "[36mGET /api/get_file/社区平安/上海市气象灾害防御办法.pdf HTTP/1.0[0m" 304 -
+127.0.0.1 - - [12/Sep/2023 17:50:05] "[36mGET /api/get_file/社区平安/上海市气象灾害防御办法.pdf HTTP/1.0[0m" 304 -
+127.0.0.1 - - [12/Sep/2023 17:50:12] "[33mGET /api/get_file/社区平安/文件名称:%20/chatgpt/LLMs-QA-system/streettown/Data/街镇助手/社区平安/上海市气象灾害防御办法.pdf HTTP/1.0[0m" 404 -
+127.0.0.1 - - [12/Sep/2023 17:50:47] "[33mGET /api/get_file/社区平安/文件名称:%20/chatgpt/LLMs-QA-system/streettown/Data/街镇助手/社区平安/上海市气象灾害防御办法.pdf HTTP/1.0[0m" 404 -
+Getting answer for scene: 社区管理
+发送的查询: 
+参考以下与问题相关的3段文本:
+上 海 市 人 民 政 府 规 章
+ 
+ 
+上海市行政处罚听证程序规定
+(2023年1月19日上海市人民政府令第77号公布  自2023年
+4月1日起施行)
+ 
+第一章  总  则
+ 
+第一条（目的和依据）
+    为了规范行政处罚听证程序，保护公民、法人或者其他组织
+的合法权益，根据《中华人民共和国行政处罚法》的规定，结
+合本市实际，制定本规定。
+第二条（适用范围）
+    本市行政机关和法律、法规授权的具有管理公共事务职能的
+组织（以下统称“行政机关”）开展行政处罚听证活动，适用
+本规定。
+第三条（听证范围）
+行政机关拟作出下列行政处罚决定，应当告知当事人有要
+ 的其他机构负责。
+    依法受委托组织拟作出适用听证程序的行政处罚的，由委托
+的行政机关负责组织听证。
+    行政机关不得委托其他机关或者组织负责组织听证。
+第六条（听证人员的范围）
+  
+上 海 市 人 民 政 府 发 布      
+ 
+     上 海 市 人 民 政 府 规 章
+    听证人员包括听证主持人、听证员和书记员。
+第七条（听证参与人的范围）
+    听证参与人包括当事人及其代理人、案件调查人员、翻译人
+员、证人、鉴定人、勘验人以及其他有关人员。
+    前款所称的当事人，是指被事先告知将受到适用听证程序的
+行政处罚的公民、法人或者其他组织；案件调查人员，是指行
+ （五）法律、法规、规章规定的其他情形。
+除前款范围外，行政机关认为需要听证的其他情形，也应
+当告知当事人有要求举行听证的权利。
+第四条（较大数额标准）
+    本规定所称的较大数额（或者较大价值），对个人是指5000
+元以上（或者等值物品价值）；对法人或者其他组织是指5万元
+以上（或者等值物品价值）。上海市人民政府可以根据经济社
+会发展的情况，对前述较大数额（或者较大价值）标准进行调
+整并予以公布。
+ 
+第二章  听证组织机关、听证人员和听证参与人
+ 
+第五条（听证组织机关）
+    行政机关拟作出适用听证程序的行政处罚的，由该行政机关
+负责组织听证。具体实施工作，由其法制机构或者该机关指定
+，然后回答以下问题：上海市行政处罚听证程序的目的是什么？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '上海市行政处罚听证程序的目的是为了规范行政处罚听证程序，保护公民、法人或者其他组织的合法权益，根据《中华人民共和国行政处罚法》的规定，结合本市实际，制定本规定。'}
+Getting answer for scene: 社区平安
+发送的查询: 
+参考以下与问题相关的3段文本:
+(二)气象灾害防御设施、装置、器材清单以及气象灾害防御重点部位清单;(三)定期巡查及隐患整改记录;(四)气象灾害防御培训和应急演练记录;(五)气象灾害预警信号响应、应急处置记录;(六)气象灾害发生情况;(七)其他需要归档的资料.第二十一条　(对重点单位的服务)气象主管机构、应急管理部门及相关行业管理部门应当按照职责分工加强对重点单位气象灾害防御工作的服务,指导重点单位制定气象灾害应急预案、开展气象灾害防御培训.气象主管机构及所属气象台应当建立多种渠道,为重点单位提供气象灾害预报预警信息服务.鼓励相关气象行业组织、气象信息服务单位为重点单位提供专业气象服务,提高气象灾害防御能力.第二十二条　(对重点单位的监督)相关行业管理部门在职责范围内对重点单位履行气象灾害防御职责情况开展专项检查或者抽查,并加强信息共享.应急管理部门、气象主管机构可以与相关行业管理部门开展联合检查,对检查中发现的问题督促及时整改.专项检查或者抽查包括以下内容:(一)气象灾害防御制度、应急预案制定情况;—０１—
+ 现的问题;(五)配备必要的救援装备,并根据需要组建救援抢险队伍;(六)根据气象灾害预警信号等级,开展气象灾害应急响应行动,及时向相关行业管理部门、气象主管机构报送本单位灾情.第十九条　(重点单位责任人、应急管理人)重点单位主要负责人或者法定代表人是本单位气象灾害防御工作的责任人,对本单位的气象灾害防御工作全面负责.单位人数超过３００人或者生产经营场区分散的重点单位,应当确定２名以上气象灾害应急管理人.应急管理人履行下列职责:(一)接收气象灾害预警信息并作出预警响应;(二)在灾害性天气影响或者气象灾害发生期间,落实本单位气象灾害防御及救援措施;(三)落实本单位气象灾害防御预案演练、设施维护、宣传培训等日常管理工作,保障气象信息接收与传播等设施正常运行;(四)与气象主管机构、相关行业管理部门沟通灾害防御有关信息;(五)开展其他与气象灾害防御相关的工作.第二十条　(重点单位档案)重点单位应当建立气象灾害防御工作档案.档案应当包括以下内容:(一)气象灾害防御制度、气象灾害应急预案;—９—
+ 国土空间规划.本市有关单位应当按照气象灾害防御规划,建设气象灾害防御工程设施,落实气象灾害防御措施.第十二条　(规划内容)气象灾害防御规划应当包括下列内容:(一)防御原则、目标和主要任务;(二)气象灾害发生发展规律和防御工作现状;(三)气象灾害易发区和易发时段;(四)防御分区和防御重点;(五)防御设施和工程建设;(六)防御管理和保障措施;(七)法律、法规、规章规定的其他内容.第十三条　(应急预案)应急管理部门、气象主管机构应当会同有关部门制定本行政区域的气象灾害应急预案,报本级人民政府批准后发布,并按规定报送备案.本市有关单位制定的突发事件应急预案中涉及气象灾害防御的,应当与气象灾害应急预案相互衔接.第十四条　(基础防灾能力建设)本市有关单位应当按照下列要求,加强基础防灾能力建设:(一)区和乡镇人民政府、街道办事处以及应急管理、民防、交通、农业农村、林业等部门应当在台风、大风、龙卷风多发区域、沿—５—
+，然后回答以下问题：气象灾害包括哪些？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '气象灾害是指由大气现象引起的自然灾害，主要包括雷电、冰雹、龙卷风、暴雨、暴雪、沙尘暴、干旱、洪涝、海啸等。这些灾害具有突发性强、破坏力大、范围广、持续时间长等特点，给人们的生命财产安全带来极大的威胁。因此，气象灾害防范和应对已成为当今社会面临的重要挑战之一。'}
+Getting answer for scene: 社区平安
+发送的查询: 127.0.0.1 - - [12/Sep/2023 17:52:07] "[33mGET /api/get_file/社区发展/文件名称:%20/chatgpt/LLMs-QA-system/streettown/Data/街镇助手/社区发展/社区新型基础设施建设行动计划.pdf HTTP/1.0[0m" 404 -
+127.0.0.1 - - [12/Sep/2023 17:52:31] "POST /api/get_answer HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 17:53:16] "[36mGET /api/get_file/社区平安/上海市气象灾害防御办法.pdf HTTP/1.0[0m" 304 -
+127.0.0.1 - - [12/Sep/2023 17:53:17] "GET /api/get_file/社区发展/社区新型基础设施建设行动计划.pdf HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 17:53:24] "[36mGET /api/get_file/社区平安/上海市气象灾害防御办法.pdf HTTP/1.0[0m" 304 -
+127.0.0.1 - - [12/Sep/2023 17:53:40] "[36mGET /api/get_file/社区发展/社区新型基础设施建设行动计划.pdf HTTP/1.0[0m" 304 -
+127.0.0.1 - - [12/Sep/2023 17:56:27] "POST /api/get_answer HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 17:56:42] "GET /api/get_file/社区自治/市政府办公厅转发市民政局关于本市2015年居民委员会和村民委员会换届选举工作实施意见的通知.pdf HTTP/1.0" 200 -
+
+参考以下与问题相关的3段文本:
+发布台风、暴雨、暴雪、道路结冰红色预警信号时,用人单位应当为在岗工作人员提供必要的避险措施;对因前述灾害性天气发生误工的工作人员,不得作迟到或者缺勤处理.发布台风、暴雨、暴雪、道路结冰红色预警信号时,举办户外活动或者进行除应急抢险外的户外作业的,应当立即停止;除政府机关和直接保障城市运行的企事业单位外,其他单位可以采取临时停工、停业、停运、停航、停园等措施.第三十五条　(高温、低温应对)高温预警信号生效期间,用人单位应当减少或者不予安排户外作业;必须进行户外作业的,应当提供必要的防护装备或者采取限时轮岗措施.低温、霜冻、寒潮、道路结冰等预警信号生效期间,车辆所有人、驾驶人应当采取防冻防滑措施,保证行驶安全;供水、消防设施的维护责任人应当加强对住宅小区供水管线、设施设备和消防设施的检查,落实供水、消防设施的防冻保暖措施.第三十六条　(台风、大风应对)台风、大风预警信号生效期间,建(构)筑物、建筑工地、高空作业、港口码头等场所或者设施的维护责任人应当采取加固临时设施等防护措施,避免搁置物、悬挂物、附属物脱落、坠落,必要时采取停工停业、人员设备转移等措施.第三十七条　(大雾、霾应对)大雾、霾预警信号生效期间,车辆驾驶人应当降低车速,遵守—５１—
+ 十二条规定的相关证明材料，向市交通部门备案；来沪从事危
+险化学品运输的，应当按照本市规定向交通部门办理车辆查验
+等手续。
+第三十一条（运输工具）
+危险化学品道路运输企业应当具备符合相关技术标准的专用
+车辆，配置安全防护、环境保护和消防等设施、设备，并按照
+规定悬挂或者喷涂警示标志。
+危险化学品运输专用车辆应当配置车载卫星定位系统，并接
+入全国和本市重点营运车辆联网联控平台。
+  
+上 海 市 人 民 政 府 发 布      
+ 
+     上 海 市 人 民 政 府 规 章
+危险化学品水路运输企业应当具备符合国家规定的运力、安
+ 输车辆、船舶的营运证件或者运输专业人员的资格证书，复印
+后与货运单证一并留存的；
+（三）危险化学品接收单位接收外省市道路运输来沪的危险
+化学品，未按规定查验其经指定道口检查的记录，复印后与货
+运单证一并留存的；
+（四）危险化学品单位发送和接收危险化学品时，发现违法
+  
+上 海 市 人 民 政 府 发 布      
+ 
+     上 海 市 人 民 政 府 规 章
+行为未立即采取妥善处置措施或者向有关部门报告的。
+危险化学品单位向外省市购买或者销售危险化学品，未按照
+本办法第三十九条第一款的规定书面告知本市危险化学品运输
+的有关规定，并保存告知记录的，由交通、海事部门按照职责
+，然后回答以下问题：台风来了怎么办？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '台风来了怎么办？<br/>1. 台风预警信号发布时，用人单位应当为在岗工作人员提供必要的避险措施；<br/>2. 台风预警信号发布时，举办户外活动或者进行除应急抢险外的户外作业的，应当立即停止；<br/>3. 台风预警信号发布时，除政府机关和直接保障城市运行的企事业单位外，其他单位可以采取临时停工、停业、停运、停航、停园等措施。<br/>总结：台风预警信号发布时，用人单位应当为在岗工作人员提供必要的避险措施，举办户外活动或者进行除应急抢险外的户外作业的，应当立即停止，除政府机关和直接保障城市运行的企事业单位外，其他单位可以采取临时停工、停业、停运、停航、停园等措施。'}
+Getting answer for scene: 社区自治
+发送的查询: 
+参考以下与问题相关的3段文本:
+五、组织保障
+各区县和街道、乡镇要精心组织、周密安排居、村委会换届选举工作。区县要成立居、村委会换届选举工作领导小组；街道、乡镇要
+成立居、村委会换届选举工作指导小组，并设联络员；居、村委会要依法推选居、村民选举委员会。要建立健全区县和街道、乡镇领
+导责任制，做到分工明确、责任到人。换届选举工作要主动接受人大的监督。各区县要把握好整个选举的进程，及时研究解决换届选
+举中出现的问题，保证选举工作平稳有序。
+各区县和街道、乡镇要在不低于上届选举经费标准的基础上，足额保障居、村换届选举工作经费。
+ 1.认真开展调查摸底。各区县要全面落实创新社会治理、加强基层建设的要求，认真研究人口结构、社会结构深刻变化带来的新情
+况、新问题，做好换届选举前的摸底调查工作，全面掌握本地区居、村委会建设情况和存在问题，尤其是要对“难点村”“空壳村”
+和存在房屋、土地征收突出矛盾等情况复杂的居、村委会，做好工作预案，重点加强指导。
+2.研究制定工作方案。各区县和街道、乡镇要在总结巩固以往经验的基础上，研究制定选举工作方案。要坚持依法按期换届，坚持
+居、村委会成员属地化，坚持居委会“议行合一”，确保村委会成员中有妇女成员，选好素质优良、结构合理、群众认可的居、村委
+ （二）坚持依法依规。要严格按照法律法规的规定，积极推进居、村委会换届选举的规范化、程序化，严厉查处各类违法行为，确保
+换届选举公开、公平、公正。
+（三）坚持发扬民主。要在各级党组织的领导下，加强宣传引导，营造良好选举氛围，激发广大群众的参与热情，遵循民主选举程
+序，充分尊重群众意愿，保障广大人民群众的民主权利。
+（四）确保平稳有序。今年面临居、村委会换届选举与街道体制改革、社区工作者队伍建设三项工作，要加强统筹，认真研究选举中
+可能出现的新情况、新问题，采取有力措施，确保居、村委会换届选举顺利开展。
+三、具体步骤
+，然后回答以下问题：村委会换届工作的具体步骤
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '居、村委会换届选举的具体步骤如下：<br/>1. 确定候选人资格条件。<br/>2. 制定选举公告。<br/>3. 设立投票站或投票箱。<br/>4. 发放选票。<br/>5. 统计选票。<br/>6. 宣布选举结果。<br/>7. 召开选举大会。<br/>8. 举行就职仪式。<br/>总结：居、村委会换届选举需要经过多个步骤，包括确定候选人资格条件、制定选举公告、设立投票站或投票箱、发放选票、统计选票、宣布选举结果、召开选举大会以及举行就职仪式。'}
+Getting answer for scene: 社区自治
+发送的查询: [2023-09-12 17:57:50,780] ERROR in app: Exception on /api/get_answer [POST]
+Traceback (most recent call last):
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/chatgpt/LLMs-QA-system/streettown/Algorithm/QAstreetapp.py", line 20, in api_get_answer
+    answer = get_answer(question, scene, reset=reset)
+  File "/chatgpt/LLMs-QA-system/streettown/Algorithm/QAstreet.py", line 233, in get_answer
+    response = get_ans(prompt_with_history)
+  File "/chatgpt/LLMs-QA-system/streettown/Algorithm/QAstreet.py", line 165, in get_ans
+    response = requests.post("http://kw.fudan.edu.cn/ddemos/shuangdi/proxy/submit", json={
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+127.0.0.1 - - [12/Sep/2023 17:57:50] "[35m[1mPOST /api/get_answer HTTP/1.0[0m" 500 -
+127.0.0.1 - - [12/Sep/2023 17:58:10] "[36mGET /api/get_file/社区自治/市政府办公厅转发市民政局关于本市2015年居民委员会和村民委员会换届选举工作实施意见的通知.pdf HTTP/1.0[0m" 304 -
+[2023-09-12 17:59:24,449] ERROR in app: Exception on /api/get_answer [POST]
+Traceback (most recent call last):
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/chatgpt/LLMs-QA-system/streettown/Algorithm/QAstreetapp.py", line 20, in api_get_answer
+    answer = get_answer(question, scene, reset=reset)
+  File "/chatgpt/LLMs-QA-system/streettown/Algorithm/QAstreet.py", line 233, in get_answer
+    response = get_ans(prompt_with_history)
+  File "/chatgpt/LLMs-QA-system/streettown/Algorithm/QAstreet.py", line 165, in get_ans
+    response = requests.post("http://kw.fudan.edu.cn/ddemos/shuangdi/proxy/submit", json={
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+127.0.0.1 - - [12/Sep/2023 17:59:24] "[35m[1mPOST /api/get_answer HTTP/1.0[0m" 500 -
+
+参考以下与问题相关的3段文本:
+3.认真组织投票选举。要按照确定的选举日，召开选举大会进行投票选举，维护现场秩序。要提供充足规范的秘密写票处，保障选民
+在无干扰的情况下自主表达选举意愿。要严格规范委托投票行为，禁止投票现场临时委托。投票结束后，要公开唱票、计票，当场公
+布选举结果。
+4.坚决制止各类违法行为。换届选举要真正体现公开、公平、公正，坚决制止以暴力、威胁、欺骗、贿赂、伪造选票、虚报选票数等
+不正当手段，妨碍居、村民行使选举权、被选举权，破坏居、村委会换届选举的行为。
+5.妥善处理来信来访。要认真做好群众来信来访工作，及时受理、依法查处群众通过来信来访、网络等反映的问题。对群众有关法规
+ 五、组织保障
+各区县和街道、乡镇要精心组织、周密安排居、村委会换届选举工作。区县要成立居、村委会换届选举工作领导小组；街道、乡镇要
+成立居、村委会换届选举工作指导小组，并设联络员；居、村委会要依法推选居、村民选举委员会。要建立健全区县和街道、乡镇领
+导责任制，做到分工明确、责任到人。换届选举工作要主动接受人大的监督。各区县要把握好整个选举的进程，及时研究解决换届选
+举中出现的问题，保证选举工作平稳有序。
+各区县和街道、乡镇要在不低于上届选举经费标准的基础上，足额保障居、村换届选举工作经费。
+ 1.认真开展调查摸底。各区县要全面落实创新社会治理、加强基层建设的要求，认真研究人口结构、社会结构深刻变化带来的新情
+况、新问题，做好换届选举前的摸底调查工作，全面掌握本地区居、村委会建设情况和存在问题，尤其是要对“难点村”“空壳村”
+和存在房屋、土地征收突出矛盾等情况复杂的居、村委会，做好工作预案，重点加强指导。
+2.研究制定工作方案。各区县和街道、乡镇要在总结巩固以往经验的基础上，研究制定选举工作方案。要坚持依法按期换届，坚持
+居、村委会成员属地化，坚持居委会“议行合一”，确保村委会成员中有妇女成员，选好素质优良、结构合理、群众认可的居、村委
+，然后回答以下问题：村委会换届怎么投票？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+Getting answer for scene: 社区自治
+发送的查询: 
+参考以下与问题相关的3段文本:
+3.认真组织投票选举。要按照确定的选举日，召开选举大会进行投票选举，维护现场秩序。要提供充足规范的秘密写票处，保障选民
+在无干扰的情况下自主表达选举意愿。要严格规范委托投票行为，禁止投票现场临时委托。投票结束后，要公开唱票、计票，当场公
+布选举结果。
+4.坚决制止各类违法行为。换届选举要真正体现公开、公平、公正，坚决制止以暴力、威胁、欺骗、贿赂、伪造选票、虚报选票数等
+不正当手段，妨碍居、村民行使选举权、被选举权，破坏居、村委会换届选举的行为。
+5.妥善处理来信来访。要认真做好群众来信来访工作，及时受理、依法查处群众通过来信来访、网络等反映的问题。对群众有关法规
+ 五、组织保障
+各区县和街道、乡镇要精心组织、周密安排居、村委会换届选举工作。区县要成立居、村委会换届选举工作领导小组；街道、乡镇要
+成立居、村委会换届选举工作指导小组，并设联络员；居、村委会要依法推选居、村民选举委员会。要建立健全区县和街道、乡镇领
+导责任制，做到分工明确、责任到人。换届选举工作要主动接受人大的监督。各区县要把握好整个选举的进程，及时研究解决换届选
+举中出现的问题，保证选举工作平稳有序。
+各区县和街道、乡镇要在不低于上届选举经费标准的基础上，足额保障居、村换届选举工作经费。
+ 1.认真开展调查摸底。各区县要全面落实创新社会治理、加强基层建设的要求，认真研究人口结构、社会结构深刻变化带来的新情
+况、新问题，做好换届选举前的摸底调查工作，全面掌握本地区居、村委会建设情况和存在问题，尤其是要对“难点村”“空壳村”
+和存在房屋、土地征收突出矛盾等情况复杂的居、村委会，做好工作预案，重点加强指导。
+2.研究制定工作方案。各区县和街道、乡镇要在总结巩固以往经验的基础上，研究制定选举工作方案。要坚持依法按期换届，坚持
+居、村委会成员属地化，坚持居委会“议行合一”，确保村委会成员中有妇女成员，选好素质优良、结构合理、群众认可的居、村委
+，然后回答以下问题：村委会换届怎么投票？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+Getting answer for scene: 社区自治
+发送的查询: 127.0.0.1 - - [12/Sep/2023 18:02:06] "POST /api/get_answer HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 18:02:17] "[36mGET /api/get_file/社区自治/市政府办公厅转发市民政局关于本市2015年居民委员会和村民委员会换届选举工作实施意见的通知.pdf HTTP/1.0[0m" 304 -
+127.0.0.1 - - [12/Sep/2023 18:02:29] "[36mGET /api/get_file/社区发展/社区新型基础设施建设行动计划.pdf HTTP/1.0[0m" 304 -
+127.0.0.1 - - [12/Sep/2023 18:03:10] "[36mGET /api/get_file/社区自治/市政府办公厅转发市民政局关于本市2015年居民委员会和村民委员会换届选举工作实施意见的通知.pdf HTTP/1.0[0m" 304 -
+127.0.0.1 - - [12/Sep/2023 18:03:37] "POST /api/get_answer HTTP/1.0" 200 -
+127.0.0.1 - - [12/Sep/2023 18:09:57] "POST /api/get_answer HTTP/1.0" 200 -
+
+参考以下与问题相关的3段文本:
+五、组织保障
+各区县和街道、乡镇要精心组织、周密安排居、村委会换届选举工作。区县要成立居、村委会换届选举工作领导小组；街道、乡镇要
+成立居、村委会换届选举工作指导小组，并设联络员；居、村委会要依法推选居、村民选举委员会。要建立健全区县和街道、乡镇领
+导责任制，做到分工明确、责任到人。换届选举工作要主动接受人大的监督。各区县要把握好整个选举的进程，及时研究解决换届选
+举中出现的问题，保证选举工作平稳有序。
+各区县和街道、乡镇要在不低于上届选举经费标准的基础上，足额保障居、村换届选举工作经费。
+ 1.认真开展调查摸底。各区县要全面落实创新社会治理、加强基层建设的要求，认真研究人口结构、社会结构深刻变化带来的新情
+况、新问题，做好换届选举前的摸底调查工作，全面掌握本地区居、村委会建设情况和存在问题，尤其是要对“难点村”“空壳村”
+和存在房屋、土地征收突出矛盾等情况复杂的居、村委会，做好工作预案，重点加强指导。
+2.研究制定工作方案。各区县和街道、乡镇要在总结巩固以往经验的基础上，研究制定选举工作方案。要坚持依法按期换届，坚持
+居、村委会成员属地化，坚持居委会“议行合一”，确保村委会成员中有妇女成员，选好素质优良、结构合理、群众认可的居、村委
+ （二）坚持依法依规。要严格按照法律法规的规定，积极推进居、村委会换届选举的规范化、程序化，严厉查处各类违法行为，确保
+换届选举公开、公平、公正。
+（三）坚持发扬民主。要在各级党组织的领导下，加强宣传引导，营造良好选举氛围，激发广大群众的参与热情，遵循民主选举程
+序，充分尊重群众意愿，保障广大人民群众的民主权利。
+（四）确保平稳有序。今年面临居、村委会换届选举与街道体制改革、社区工作者队伍建设三项工作，要加强统筹，认真研究选举中
+可能出现的新情况、新问题，采取有力措施，确保居、村委会换届选举顺利开展。
+三、具体步骤
+，然后回答以下问题：村委会换届工作的具体步骤
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '居、村委会换届选举的具体步骤如下：<br/>1. 确定候选人资格条件。<br/>2. 制定选举公告。<br/>3. 设立投票站或投票箱。<br/>4. 发放选票。<br/>5. 统计选票。<br/>6. 宣布选举结果。<br/>7. 召开选举大会。<br/>8. 举行就职仪式。<br/>总结：居、村委会换届选举需要经过多个步骤，包括确定候选人资格条件、制定选举公告、设立投票站或投票箱、发放选票、统计选票、宣布选举结果、召开选举大会以及举行就职仪式。'}
+Getting answer for scene: 社区发展
+发送的查询: 
+参考以下与问题相关的3段文本:
+第三十条　人力资源社会保障、医保等部门应按照职责分工,协助税务机关做好各项社会保险费征收管理等工作,探索推进社会保险费业务经办和申报缴纳流程联动办理,大力推进“一网通办”.教育、民政等部门应协助税务机关持续做好相关缴费群体的代收代缴、宣传辅导、提示提醒等工作.第三十一条　人力资源社会保障、规划资源、水务、人防、残联等部门应协助税务机关开展非税收入征缴管理工作,对划转税务征收的非税收入项目,由相关执收主管部门负责协助税务机关开展征缴管理工作.税务机关应向财政、规划资源、水务、人防、残联等部门及时反馈相关非税收入征收明细信息.第三十二条　因涉税财物价格不明、价格有争议或其他原因需要进行价格认定的,税务机关可向价格主管部门所属的价格认定机构提出价格认定协助申请,价格认定机构应依法进行价格认定.第三十三条　办理不动产权属登记、耕地建设批准手续时,登记机构应依照法律、法规规定查验与该不动产、耕地等相关的完税凭证、减免税凭证或有关信息;经查验已经履行申报缴纳义务的,依法为其办理相关业务.第三十四条　个人转让股权办理变更登记的,市场主体登记机关应查验与该股权交易相关的个人所得税完税凭证;经查验已经履行申报缴纳义务的,市场主体登记机关应依法为其办理股权—８—
+ 变更登记.第三十五条　财政部门应依法加强对纳税人、缴费人会计凭证、会计账簿、财务会计报告及其他会计资料的监督,督促纳税人、缴费人根据实际发生的经济业务事项,使用合法、有效的凭证记账和核算;对监督检查中发现的涉税涉费违法行为,应及时通知税务机关.第三十六条　税收收入预算的编制和调整,应与本行政区域的税源状况相适应.税务机关应根据经济发展实际和税源状况,科学预测税收目标,及时向同级财政部门反映重大税收增减变化等因素,按照财政部门的要求,提供税费收入征收预测情况.财政部门编制和调整税收收入预算,应征求同级税务机关的意见.第三十七条　税务机关依法查询纳税人的金融账户信息,实施税收保全和税收强制执行措施,依法查询缴纳社会保险费的用人单位的金融账户信息,实施相关强制执行措施,商业银行和其他金融机构应依法予以协助.第三十八条　人民法院执行生效裁判文书、办理强制清算及破产案件时,税务机关应及时征收相关税费.第三十九条　公安、网信等部门应按照各自职责,依法及时处理寻衅滋事、散布谣言等严重影响税费管理秩序的行为.对税务机关移送的逃税、骗税、抗税、虚开发票等涉嫌犯罪案件,公安机关应依法办理,并将办理情况及时反馈税务机关.—９—
+ 第五章　监督保障第四十条　各区人民政府应根据本办法建立健全各区税费征收保障制度,完善税费征收保障评价机制,协调解决税费征收保障工作中的重大问题,督促有关部门和单位履行税费征收保障工作职责.第四十一条　税务机关应会同有关部门和单位,加强税费征收管理行政执法工作,创新行政执法方式,严格推进规范公正文明执法,推动建立跨部门、跨区域行政执法协作机制和行政执法与刑事司法衔接机制,及时查处涉税涉费违法行为.第四十二条　税务机关应会同有关部门和单位,协调推进财政税收政策出台和落实,支持和规范新产业、新业态、新模式健康发展,促进依法纳税和公平竞争.第四十三条　税务机关和有关部门、单位应主动接受企业、事业单位、社会组织、个人和新闻媒体对税费征收保障工作的监督.第四十四条　税务机关应健全涉税涉费争议解决机制,畅通涉税涉费诉求收集、响应和反馈渠道,运用和解、调解等争议解决方式,依法及时化解涉税涉费争议.第四十五条　税务机关应加大政府信息公开力度,完善投诉举报制度,公开投诉举报方式.第四十六条　税务机关应建立健全纳税人、缴费人纳税缴费信用信息归集和发布工作机制,依法将相关信息向社会公开,并按—０１—
+，然后回答以下问题：333
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '第三十五条\u3000税收收入预算的编制和调整,应与本行政区域的税源状况相适应。税务机关应根据经济发展实际和税源状况,科学预测税收目标,及时向同级财政部门反映重大税收增减变化等因素,按照财政部门的要求,提供税费收入征收预测情况。'}
+Getting answer for scene: 社区发展
+发送的查询: 127.0.0.1 - - [13/Sep/2023 09:40:54] "POST /api/get_answer HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2023 09:41:13] "GET /api/get_file/社区发展/企业登记注册（内资公司及分公司）.pdf HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2023 09:47:44] "[36mGET /api/get_file/社区发展/企业登记注册（内资公司及分公司）.pdf HTTP/1.0[0m" 304 -
+127.0.0.1 - - [13/Sep/2023 09:49:32] "[36mGET /api/get_file/社区发展/企业登记注册（内资公司及分公司）.pdf HTTP/1.0[0m" 304 -
+[2023-09-13 09:55:00,604] ERROR in app: Exception on /api/get_answer [POST]
+Traceback (most recent call last):
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/opt/rh/rh-python38/root/usr/lib64/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/chatgpt/LLMs-QA-system/streettown/Algorithm/QAstreetapp.py", line 20, in api_get_answer
+    answer = get_answer(question, scene, reset=reset)
+  File "/chatgpt/LLMs-QA-system/streettown/Algorithm/QAstreet.py", line 233, in get_answer
+    response = get_ans(prompt_with_history)
+  File "/chatgpt/LLMs-QA-system/streettown/Algorithm/QAstreet.py", line 165, in get_ans
+    response = requests.post("http://kw.fudan.edu.cn/ddemos/shuangdi/proxy/submit", json={
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+127.0.0.1 - - [13/Sep/2023 09:55:00] "[35m[1mPOST /api/get_answer HTTP/1.0[0m" 500 -
+
+参考以下与问题相关的3段文本:
+董事签字
+法定代表人更改姓名的，提交公安部门出具的证明
+政府部门核发
+公安部门出具
+原件
+1
+纸质
+非必要
+自然人更改姓名
+后，其身份证号码
+与更改姓名前一致
+的，无需提交公安
+部门证明，只需提
+交新的身份证件复
+印件（出示原件）
+减少注册资本的
+,
+提交公司债务清偿或债务担保情况的
+说明，仅通过报纸发布减少注册资本公告的，需要提
+交依法刊登公告的报纸样张
+申请人自备
+原件
+1
+纸质
+非必要
+应当自公告之日起
+45
+日后申请变更登
+记。已通过国家企
+业信用信息公示系
+统发布减少注册资
+本公告的，可免于
+提交减资公告材
+料。
+变更经营范围的，公司申请登记的经营范围中有法
+ 常见问题
+常见问题
+该事项是否可委托代理人递交材料？
+该事项可由指定代表或共同委托代理人递交申请材料。
+常见错误示例
+常见错误示例
+1. 
+常见错误：申领《营业执照》中，经办人不是法定代表人或负责人时。没有携带授权委托书。
+正确做法：如申请人不是法定代表人或者负责人的，应当提供授权委托书及经办人员身份证明。
+2. 
+常见错误：在填报《公司登记（备案）申请书》时，单位名称处填写单位简称。
+正确做法：应填写市场监管部门核发的企业法人营业执照中的名称。
+3. 
+常见错误：公司变更经营范围时，所申请的经营范围中包含前置许可项目的，但未取得批准文件或许可证明。
+ 我的免交材料
+材料名称
+材料名称
+来源渠道
+来源渠道
+来源渠道说明
+来源渠道说明
+材料类型
+材料类型
+纸质材料份数
+纸质材料份数
+材料形式
+材料形式
+材料必要性
+材料必要性
+备注
+备注
+《公司登记（备案）申请书》
+申请人自备
+原件
+1
+纸质
+必要
+变更登记事项涉及公司章程修改的，提交修改公司章
+程的决议、决定（公司章程另有规定的，从其规定）
+申请人自备
+原件
+1
+纸质
+必要
+有限责任公司提交
+由代表三分之二以
+上表决权的股东签
+署的股东会决议。
+股份有限公司提交
+由会议主持人及出
+席会议的董事签署
+的股东大会会议记
+录。
+ 
+一人有限责任
+公司提交股东签署
+的书面决定。
+ 
+国有
+，然后回答以下问题：我想注册企业，有什么需要准备的吗？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '您好！请问您想在哪个地区注册企业呢？不同的地区对企业的要求不同，因此需要先了解当地的相关政策和法规。如果您已经确定了注册地点，那么接下来就是准备所需的材料。以下是一些常见的材料：<br/>1. 公司章程：这是一份关于公司的组织结构、经营方式以及决策机制等重要信息的文件。<br/>2. 营业执照：这是企业合法存在的证明，也是企业对外开展业务的重要凭证之一。<br/>3. 税务登记证：这是企业办理税务事宜的必备证件，包括发票、纳税申报表等。<br/>4. 银行开户许可证：这是企业开设账户的必备证件，用于缴纳税款和其他费用。<br/>5. 商标注册证书：如果您的企业有自己的品牌或商标，则需要进行商标注册。<br/>6. 专利证书：如果您的企业拥有专利技术，则需要进行专利注册。<br/>7. 版权证书：如果您的企业拥有著作权，则需要进行版权注册。<br/>以上只是其中的一部分，具体还需要根据实际情况来选择。另外，需要注意的是，每个地区的政策和流程可能有所不同，建议提前咨询当地工商行政管理部门。希望我的回答能够帮助到您！'}
+Getting answer for scene: 社区发展
+发送的查询: Q: 我想注册企业，有什么需要准备的吗？
+A: 您好！请问您想在哪个地区注册企业呢？不同的地区对企业的要求不同，因此需要先了解当地的相关政策和法规。如果您已经确定了注册地点，那么接下来就是准备所需的材料。以下是一些常见的材料：<br/>1. 公司章程：这是一份关于公司的组织结构、经营方式以及决策机制等重要信息的文件。<br/>2. 营业执照：这是企业合法存在的证明，也是企业对外开展业务的重要凭证之一。<br/>3. 税务登记证：这是企业办理税务事宜的必备证件，包括发票、纳税申报表等。<br/>4. 银行开户许可证：这是企业开设账户的必备证件，用于缴纳税款和其他费用。<br/>5. 商标注册证书：如果您的企业有自己的品牌或商标，则需要进行商标注册。<br/>6. 专利证书：如果您的企业拥有专利技术，则需要进行专利注册。<br/>7. 版权证书：如果您的企业拥有著作权，则需要进行版权注册。<br/>以上只是其中的一部分，具体还需要根据实际情况来选择。另外，需要注意的是，每个地区的政策和流程可能有所不同，建议提前咨询当地工商行政管理部门。希望我的回答能够帮助到您！
+参考以下与问题相关的3段文本:
+上海市徐汇区肇嘉浜路
+301
+号政务服务大厅（
+上海市市场监督管理局）；其他详见
+http://scjgj.sh.gov.cn/
+5001/
+监督投诉方式
+投诉电话：
+ 
+021-12345
+网上投诉：
+ 
+http://fw.scjgj.sh.gov.cn/shaic/12315/zxtsjb.ht
+m
+窗口投诉：
+ 
+上海市徐汇区大木桥路
+1
+号
+ 
+上海市市场监督管
+理局
+ 
+信访接待大厅
+信函投诉：
+ 
+投诉受理部门名称：上海市市场监督管理局信
+访接待大厅，通讯地址：上海市徐汇区大木桥路
+1
+号，邮政
+编码：
+200032
+事项类型
+行政许可
+办件类型
+即办件
+基本编码
+ 当场登记，出具登记通知书，并及时制发营业执照。
+办理地点
+上海市徐汇区斜土路街道肇嘉浜路
+301
+号政务服务大厅
+4-10
+号窗口
+办理时间
+夏令时：星期一至星期五，上午
+09:00
+至
+11:30
+，下午
+14:00
+至
+16:30
+（法定节假日除外）
+咨询方式
+电话咨询：
+ 
+(021)64220000-5446
+（内资）（上海市市场
+监督管理局）；其他详见
+http://scjgj.sh.gov.cn/5001/
+网上咨询：
+ 
+http://fw.scjgj.sh.gov.cn/shaic/consult!toQues
+tion.action
+窗口咨询：
+ 
+上海市徐汇区肇嘉浜路
+ 办理地点
+办理地点
+上海市徐汇区斜土路街道肇嘉浜路
+301
+号政务服务大厅
+4-10
+号窗口
+办理时间
+办理时间
+夏令时：星期一至星期五，上午
+09:00
+至
+11:30
+，下午
+14:00
+至
+16:30
+（法定节假日除外）
+申请与受理
+办理步骤
+办理步骤
+办理时限（工作日）
+办理时限（工作日）
+办理人员
+办理人员
+审查标准
+审查标准
+收件
+0
+收件人员
+申请材料齐全，形式符合要求
+受理
+0
+受理人员
+申请材料齐全，符合法定形式，具体见申请材料目录。
+审查与决定
+办理步骤
+办理步骤
+办理时限（工作日）
+办理时限（工作日）
+办理人员
+办理人员
+审查标准
+审查标准
+审查
+当场办结
+审查人员
+，然后回答以下问题：我想在上海市徐汇区注册企业
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+Getting answer for scene: 社区发展
+发送的查询: 127.0.0.1 - - [13/Sep/2023 10:00:54] "POST /api/get_answer HTTP/1.0" 200 -
+
+参考以下与问题相关的3段文本:
+(四)全面正式实施.２０２４年１月１日起,全面施行市场主体以专用信用报告替代在本市行政区域内４１个领域的有无违法记录证明及“合规一码通”模式,实现市场主体有无违法记录方面“一码通行”.对专用信用报告不能证明的事项,依照相关法律规定办理.要求提交证明的单位依法有权查询市场主体违法行为信息的,相关部门、单位要做好数据共享.(五)探索扩展应用范围.积极扩展专用信用报告应用范围等,为更多类型的社会主体提供便利.大力探索长三角区域一体化推行市场主体以专用信用报告替代有无违法记录证明.研究推进与长三角区域外的省市进行数据共享,推动专用信用报告涵盖市场主体在外省市有无违法记录的情况.三、组织保障(一)强化责任落实.市司法局、市发展改革委统筹推进全市推行工作,指导督促各区、各市级部门和相关单位推进落实,研究解决全市面上重大问题.各区、各市级部门和相关单位要高度重视,明确责任部门和责任人,按照“谁生成谁提供,谁提供谁负责”的原则,确保本区、本系统、本单位市场主体违法行为信用信息等及时归集共享,并对本单位提供数据的全面性、真实性、准确性负责.市公共信用信息服务中心、市大数据中心要明确责任部门和责任人,做好专用信用报告、“合规一码通”等功能开发上线和全市数据归集共享技术保障.各区建立由区发展改革委、区司法局、区大数据中心等组成的协调机制,组织指导区级部门和街镇落实相—５—
+ 常见问题
+常见问题
+该事项是否可委托代理人递交材料？
+该事项可由指定代表或共同委托代理人递交申请材料。
+常见错误示例
+常见错误示例
+1. 
+常见错误：申领《营业执照》中，经办人不是法定代表人或负责人时。没有携带授权委托书。
+正确做法：如申请人不是法定代表人或者负责人的，应当提供授权委托书及经办人员身份证明。
+2. 
+常见错误：在填报《公司登记（备案）申请书》时，单位名称处填写单位简称。
+正确做法：应填写市场监管部门核发的企业法人营业执照中的名称。
+3. 
+常见错误：公司变更经营范围时，所申请的经营范围中包含前置许可项目的，但未取得批准文件或许可证明。
+ 建设的,具备电子证照清单管理、制发归集、场景管理、安全访问、查询核验等功能的基础数据库及相关信息系统.本办法所称发证单位,是指依据法定职责制作签发电子证照的公共管理和服务机构.本办法所称用证单位,是指在依法履职过程中共享使用电子证照的公共管理和服务机构,或经授权的社会团体、企业.本办法所称持证主体,是指电子证照的签发对象,包括自然人、法人和非法人组织.本办法所称政务类应用场景是指公共管理和服务机构根据法定职责需调用、核验电子证照的应用场景.本办法所称社会化应用场景是指公共管理和服务机构以外的其他主体(以下简称“社会化用证主体”)需调用、核验电子证照的应用场景.第四条　(管理原则)本市电子证照管理和应用遵循“标准统一、应归尽归、互认互通、安全可靠”的基本原则.第五条　(职责分工)市政府办公厅是本市电子证照综合管理部门(以下简称“综合管理部门”),负责统筹规划、协调推进、指导监督全市电子证照管理及应用工作.市大数据中心具体承担市电子证照库的建设与运营管理、证照数据共享、应用接入、安全体系建设等工作.各市级部门负责统筹协调本系统公共管理和服务机构,按照—３—
+，然后回答以下问题：你是谁？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '我是复旦大学知识工场实验室训练出来的语言模型CuteGPT。'}
+Getting answer for scene: 社区发展
+发送的查询: 127.0.0.1 - - [13/Sep/2023 10:01:27] "POST /api/get_answer HTTP/1.0" 200 -
+Q: 你是谁？
+A: 我是复旦大学知识工场实验室训练出来的语言模型CuteGPT。
+参考以下与问题相关的3段文本:
+常见问题
+常见问题
+该事项是否可委托代理人递交材料？
+该事项可由指定代表或共同委托代理人递交申请材料。
+常见错误示例
+常见错误示例
+1. 
+常见错误：申领《营业执照》中，经办人不是法定代表人或负责人时。没有携带授权委托书。
+正确做法：如申请人不是法定代表人或者负责人的，应当提供授权委托书及经办人员身份证明。
+2. 
+常见错误：在填报《公司登记（备案）申请书》时，单位名称处填写单位简称。
+正确做法：应填写市场监管部门核发的企业法人营业执照中的名称。
+3. 
+常见错误：公司变更经营范围时，所申请的经营范围中包含前置许可项目的，但未取得批准文件或许可证明。
+ 我的免交材料
+材料名称
+材料名称
+来源渠道
+来源渠道
+来源渠道说明
+来源渠道说明
+材料类型
+材料类型
+纸质材料份数
+纸质材料份数
+材料形式
+材料形式
+材料必要性
+材料必要性
+备注
+备注
+《公司登记（备案）申请书》
+申请人自备
+原件
+1
+纸质
+必要
+变更登记事项涉及公司章程修改的，提交修改公司章
+程的决议、决定（公司章程另有规定的，从其规定）
+申请人自备
+原件
+1
+纸质
+必要
+有限责任公司提交
+由代表三分之二以
+上表决权的股东签
+署的股东会决议。
+股份有限公司提交
+由会议主持人及出
+席会议的董事签署
+的股东大会会议记
+录。
+ 
+一人有限责任
+公司提交股东签署
+的书面决定。
+ 
+国有
+ 推进工作机制,按领域推进社区新型基础设施建设各项工作,压实主体责任,明晰工作要求.在此基础上,成立由市民政局、市经济信息化委、市发展改革委、市商务委、市房屋管理局等部门组成的工作专班,负责日常协调.各区相应建立本区域相关工作机制,加强组织保障.(责任单位:各相关部门、各区政府)(二)强化属地统筹.推动各区根据市级规划部署,做实条块联席会议和基层约请制度,加强条块协商和业务指导,推动部门聚焦基层难点问题,清单式解决问题.落实社区规划建议权,结合在地资源禀赋和社区类型、居民结构,因地制宜开展智慧社区建设,确保项目精准落地.(责任单位:各区政府、各相关部门)(三)开展示范工程.聚焦社区治理与便民服务等重点应用场景,鼓励各区选取信息化基础条件好、创新方向明确、具有复制推广价值或区域特色的项目,开展“区、街镇、居村”三级示范工程,推动各区形成一批能显著提升社区服务或社会治理效能的示范项目,提炼一批规范准入、维护、退出、监督等各环节的发展长效机制,总结一套“政企合作、市场投入为主”的建设运营模式.在此基础上,逐步扩大示范工程的区域覆盖和项目覆盖,以规模化应用推动本市社区“新基建”建设.对示范工程中实施效果好、群众满意度高的项目,加大宣传推广力度,优先落实贴息等政策.(责任单位:各相关部门、各区政府)(四)推动社区参与.建立健全参与式社区规划制度,积极发挥社区自治共治、民主协商机制作用,将智慧社区建设纳入社区协—９—
+，然后回答以下问题：你能帮我做什么？
+ 请依据原文精确回答，并在回答后将原文内容进行总结。确保您的回答准确无误，并附上一句总结性陈述。如果原文中有明确的步骤，你的回答也要按照步骤输出，要符合逻辑。若回答总字数太少，请根据原文上下文内容进行扩充回答，若回答不准确，请重新构造，确保语句通顺、无语病，并避免重复。
+历史记录: []
+响应: {'data': '我可以为您提供关于如何申请办理市场主体以专用信用报告替代在本市行政区域内41个领域的有无违法记录证明及“合规一码通”模式的信息。您需要提供哪些材料以及具体的申请流程，我会根据实际情况为您解答。同时，如果您还有其他疑问，也可以随时向我提出。'}
+Getting answer for scene: 社区平安
+发送的查询: 127.0.0.1 - - [13/Sep/2023 10:06:58] "POST /api/get_answer HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2023 10:07:29] "POST /api/get_answer HTTP/1.0" 200 -
